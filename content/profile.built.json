@@ -176,38 +176,38 @@
     "python": [
       {
         "status": "published",
-        "name": "[package-name]",
-        "description": "[Short description of what the package does.]",
+        "name": "MineProductivity",
+        "description": "scikit-learn for mining productivity.",
         "version": "[Version]",
-        "pypiUrl": "",
-        "githubUrl": "",
-        "docsUrl": ""
+        "pypiUrl": "https://pypi.org/project/mineproductivity/",
+        "githubUrl": "https://github.com/imanojkumar/MineProductivity",
+        "docsUrl": "https://imanojkumar.github.io/MineProductivity/"
       }
     ],
     "r": [
       {
         "status": "published",
-        "name": "[package-name]",
-        "description": "[Short description of what the package does.]",
+        "name": "MiningCostBench",
+        "description": "Cost-driver benchmarking across 53 commodities. 6 categories, with 6-stage cost decomposition.",
         "cranUrl": "",
-        "githubUrl": "",
-        "docsUrl": ""
+        "githubUrl": "https://github.com/imanojkumar/MiningCostBench",
+        "docsUrl": "https://imanojkumar.github.io/MiningCostBench/"
       },
       {
         "status": "published",
-        "name": "[package-name]",
-        "description": "[Short description of what the package does.]",
+        "name": "MineSDG",
+        "description": "Strategic Analytics & Sector Intelligence",
         "cranUrl": "",
-        "githubUrl": "",
-        "docsUrl": ""
+        "githubUrl": "https://github.com/imanojkumar/MineSDG",
+        "docsUrl": "https://imanojkumar.github.io/MineSDG/"
       },
       {
         "status": "published",
-        "name": "[package-name]",
-        "description": "[Short description of what the package does.]",
+        "name": "haulplan",
+        "description": "Truck-shovel fleet deployment engine with a finite-source queue/bunching model and an interactive Shiny dashboard for haulage planning.",
         "cranUrl": "",
-        "githubUrl": "",
-        "docsUrl": ""
+        "githubUrl": "https://github.com/imanojkumar/haulplan",
+        "docsUrl": "https://imanojkumar.github.io/haulplan/"
       }
     ],
     "other": []

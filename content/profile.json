@@ -84,12 +84,12 @@
 
   "software": {
     "python": [
-      { "status": "published", "name": "[package-name]", "description": "[Short description of what the package does.]", "version": "[Version]", "pypiUrl": "", "githubUrl": "", "docsUrl": "" }
+      { "status": "published", "name": "MineProductivity", "description": "scikit-learn for mining productivity.", "version": "[Version]", "pypiUrl": "https://pypi.org/project/mineproductivity/", "githubUrl": "https://github.com/imanojkumar/MineProductivity", "docsUrl": "https://imanojkumar.github.io/MineProductivity/" }
     ],
     "r": [
-      { "status": "published", "name": "[package-name]", "description": "[Short description of what the package does.]", "cranUrl": "", "githubUrl": "", "docsUrl": "" },
-      { "status": "published", "name": "[package-name]", "description": "[Short description of what the package does.]", "cranUrl": "", "githubUrl": "", "docsUrl": "" },
-      { "status": "published", "name": "[package-name]", "description": "[Short description of what the package does.]", "cranUrl": "", "githubUrl": "", "docsUrl": "" }
+      { "status": "published", "name": "MiningCostBench", "description": "Cost-driver benchmarking across 53 commodities. 6 categories, with 6-stage cost decomposition.", "cranUrl": "", "githubUrl": "https://github.com/imanojkumar/MiningCostBench", "docsUrl": "https://imanojkumar.github.io/MiningCostBench/" },
+      { "status": "published", "name": "MineSDG", "description": "Strategic Analytics & Sector Intelligence", "cranUrl": "", "githubUrl": "https://github.com/imanojkumar/MineSDG", "docsUrl": "https://imanojkumar.github.io/MineSDG/" },
+      { "status": "published", "name": "haulplan", "description": "Truck-shovel fleet deployment engine with a finite-source queue/bunching model and an interactive Shiny dashboard for haulage planning.", "cranUrl": "", "githubUrl": "https://github.com/imanojkumar/haulplan", "docsUrl": "https://imanojkumar.github.io/haulplan/" }
     ],
     "other": [
       { "status": "draft", "name": "[Project or tool name]", "description": "[Short description.]", "kind": "[web app / analytics tool / educational utility]", "url": "", "githubUrl": "" }
