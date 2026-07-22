@@ -17,7 +17,7 @@
   "social": [
     { "label": "GitHub", "icon": "github", "url": "https://github.com/imanojkumar", "status": "published" },
     { "label": "Google Scholar", "icon": "google-scholar", "url": "https://scholar.google.com/citations?user=3t83VSUAAAAJ", "status": "published" },
-    { "label": "ORCID", "icon": "orcid", "url": "https://orcid.org/my-orcid?orcid=0000-0001-8988-038X", "status": "published" },
+    { "label": "ORCID", "icon": "orcid", "url": "https://orcid.org/0000-0001-8988-038X", "status": "published" },
     { "label": "ResearchGate", "icon": "researchgate", "url": "https://www.researchgate.net/profile/Manoj_Kumar458/stats", "status": "published" },
     { "label": "LinkedIn", "icon": "linkedin", "url": "https://www.linkedin.com/in/imanojkumar/", "status": "published" },
     { "label": "Stack Overflow", "icon": "stackoverflow", "url": "https://stackoverflow.com/users/4026992/manoj-kumar?tab=badges", "status": "published" },
@@ -77,16 +77,19 @@
   ],
 
   "books": [
-    { "status": "draft", "title": "[Book title]", "subtitle": "[Subtitle]", "publisher": "[Publisher]", "year": "[Year]", "isbn": "[ISBN]", "cover": "", "description": "[One or two sentences describing the book.]", "viewUrl": "", "detailsUrl": "" },
-    { "status": "draft", "title": "[Book title]", "subtitle": "[Subtitle]", "publisher": "[Publisher]", "year": "[Year]", "isbn": "[ISBN]", "cover": "", "description": "[One or two sentences describing the book.]", "viewUrl": "", "detailsUrl": "" }
+    { "status": "published", "title": "[Book title]", "subtitle": "[Subtitle]", "publisher": "[Publisher]", "year": "[Year]", "isbn": "[ISBN]", "cover": "", "description": "[One or two sentences describing the book.]", "viewUrl": "", "detailsUrl": "" },
+    { "status": "published", "title": "[Book title]", "subtitle": "[Subtitle]", "publisher": "[Publisher]", "year": "[Year]", "isbn": "[ISBN]", "cover": "", "description": "[One or two sentences describing the book.]", "viewUrl": "", "detailsUrl": "" },
+    { "status": "published", "title": "[Book title]", "subtitle": "[Subtitle]", "publisher": "[Publisher]", "year": "[Year]", "isbn": "[ISBN]", "cover": "", "description": "[One or two sentences describing the book.]", "viewUrl": "", "detailsUrl": "" }
   ],
 
   "software": {
     "python": [
-      { "status": "draft", "name": "[package-name]", "description": "[Short description of what the package does.]", "version": "[Version]", "pypiUrl": "", "githubUrl": "", "docsUrl": "" }
+      { "status": "published", "name": "[package-name]", "description": "[Short description of what the package does.]", "version": "[Version]", "pypiUrl": "", "githubUrl": "", "docsUrl": "" }
     ],
     "r": [
-      { "status": "draft", "name": "[package-name]", "description": "[Short description of what the package does.]", "cranUrl": "", "githubUrl": "", "docsUrl": "" }
+      { "status": "published", "name": "[package-name]", "description": "[Short description of what the package does.]", "cranUrl": "", "githubUrl": "", "docsUrl": "" },
+      { "status": "published", "name": "[package-name]", "description": "[Short description of what the package does.]", "cranUrl": "", "githubUrl": "", "docsUrl": "" },
+      { "status": "published", "name": "[package-name]", "description": "[Short description of what the package does.]", "cranUrl": "", "githubUrl": "", "docsUrl": "" }
     ],
     "other": [
       { "status": "draft", "name": "[Project or tool name]", "description": "[Short description.]", "kind": "[web app / analytics tool / educational utility]", "url": "", "githubUrl": "" }

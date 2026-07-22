@@ -30,7 +30,7 @@
     {
       "label": "ORCID",
       "icon": "orcid",
-      "url": "https://orcid.org/my-orcid?orcid=0000-0001-8988-038X",
+      "url": "https://orcid.org/0000-0001-8988-038X",
       "status": "published"
     },
     {
@@ -134,10 +134,82 @@
       "distinction": ""
     }
   ],
-  "books": [],
+  "books": [
+    {
+      "status": "published",
+      "title": "[Book title]",
+      "subtitle": "[Subtitle]",
+      "publisher": "[Publisher]",
+      "year": "[Year]",
+      "isbn": "[ISBN]",
+      "cover": "",
+      "description": "[One or two sentences describing the book.]",
+      "viewUrl": "",
+      "detailsUrl": ""
+    },
+    {
+      "status": "published",
+      "title": "[Book title]",
+      "subtitle": "[Subtitle]",
+      "publisher": "[Publisher]",
+      "year": "[Year]",
+      "isbn": "[ISBN]",
+      "cover": "",
+      "description": "[One or two sentences describing the book.]",
+      "viewUrl": "",
+      "detailsUrl": ""
+    },
+    {
+      "status": "published",
+      "title": "[Book title]",
+      "subtitle": "[Subtitle]",
+      "publisher": "[Publisher]",
+      "year": "[Year]",
+      "isbn": "[ISBN]",
+      "cover": "",
+      "description": "[One or two sentences describing the book.]",
+      "viewUrl": "",
+      "detailsUrl": ""
+    }
+  ],
   "software": {
-    "python": [],
-    "r": [],
+    "python": [
+      {
+        "status": "published",
+        "name": "[package-name]",
+        "description": "[Short description of what the package does.]",
+        "version": "[Version]",
+        "pypiUrl": "",
+        "githubUrl": "",
+        "docsUrl": ""
+      }
+    ],
+    "r": [
+      {
+        "status": "published",
+        "name": "[package-name]",
+        "description": "[Short description of what the package does.]",
+        "cranUrl": "",
+        "githubUrl": "",
+        "docsUrl": ""
+      },
+      {
+        "status": "published",
+        "name": "[package-name]",
+        "description": "[Short description of what the package does.]",
+        "cranUrl": "",
+        "githubUrl": "",
+        "docsUrl": ""
+      },
+      {
+        "status": "published",
+        "name": "[package-name]",
+        "description": "[Short description of what the package does.]",
+        "cranUrl": "",
+        "githubUrl": "",
+        "docsUrl": ""
+      }
+    ],
     "other": []
   },
   "consulting": [],
