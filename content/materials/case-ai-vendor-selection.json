@@ -1,0 +1,14 @@
+{
+  "id": "case-ai-vendor-selection",
+  "type": "case-study",
+  "title": "Selecting an AI Platform Partner",
+  "summary": "A business unit compares competing AI proposals with different value claims, data requirements and implementation risks.",
+  "courseId": "ai-for-business",
+  "duration": "90 minutes",
+  "format": "Decision case with exhibits",
+  "status": "published",
+  "file": "files/materials/case-ai-vendor-selection.md",
+  "updated": "2026-07-21",
+  "license": "CC BY 4.0",
+  "rightsNotes": "Third-party trademarks, images, datasets and quoted material remain subject to their respective rights."
+}

@@ -1,0 +1,848 @@
+{
+  "generated": "2026-07-21",
+  "draftPreview": false,
+  "courseCount": 8,
+  "materialCount": 13,
+  "courses": [
+    {
+      "id": "agentic-ai-supply-chain",
+      "title": "Agentic AI in Supply Chain",
+      "summary": "Autonomous agents for resilient and intelligent supply chains.",
+      "description": "A specialised course on designing, evaluating and governing AI agents across planning, procurement, logistics, inventory and supply-chain control processes.",
+      "disciplines": [
+        "artificial-intelligence",
+        "operations-supply-chain",
+        "engineering-management"
+      ],
+      "programmeLevels": [
+        "Graduate",
+        "Postgraduate"
+      ],
+      "deliveryFormats": [
+        "Classroom",
+        "Online",
+        "Hybrid"
+      ],
+      "subjectArea": "Agentic AI in Supply Chain",
+      "duration": "10 weeks",
+      "durationGroup": "8-10 weeks",
+      "credits": 3,
+      "featured": true,
+      "status": "published",
+      "cover": "assets/img/courses/agentic-ai-supply-chain.svg",
+      "icon": "supply",
+      "audience": "Supply-chain, operations and engineering management students and professionals exploring intelligent workflow automation.",
+      "prerequisites": "Introductory knowledge of supply-chain processes; prior AI experience is not required.",
+      "outcomes": [
+        "Map supply-chain decisions suitable for AI-agent support.",
+        "Design agent roles, tools, data access and human controls.",
+        "Evaluate reliability, coordination and operational risk.",
+        "Develop performance measures for agent-enabled workflows.",
+        "Propose a phased implementation for a supply-chain use case."
+      ],
+      "modules": [
+        {
+          "title": "Supply-chain decisions and agent opportunities",
+          "description": "Planning, procurement, inventory, logistics and service."
+        },
+        {
+          "title": "Agent design and workflow orchestration",
+          "description": "Roles, tools, memory, hand-offs and escalation."
+        },
+        {
+          "title": "Data and enterprise-system integration",
+          "description": "Operational data, APIs and process constraints."
+        },
+        {
+          "title": "Reliability, controls and governance",
+          "description": "Human oversight, exception handling and accountability."
+        },
+        {
+          "title": "Pilot design and scale-up",
+          "description": "Metrics, operating change and implementation roadmap."
+        }
+      ],
+      "assessment": [
+        {
+          "name": "Process opportunity map",
+          "weight": "25%"
+        },
+        {
+          "name": "Agent workflow design",
+          "weight": "35%"
+        },
+        {
+          "name": "Supply-chain pilot proposal",
+          "weight": "40%"
+        }
+      ],
+      "syllabus": "files/courses/agentic-ai-supply-chain/syllabus.pdf",
+      "updated": "2026-07-21",
+      "durationWeeks": 10,
+      "durationLabel": "10 weeks",
+      "license": "CC BY 4.0",
+      "rightsNotes": "Third-party trademarks, images, datasets and quoted material remain subject to their respective rights."
+    },
+    {
+      "id": "ai-for-business",
+      "title": "AI for Business",
+      "summary": "AI concepts and practical applications for business leaders.",
+      "description": "A managerial introduction to artificial intelligence focused on use-case selection, business value, operating implications, risk and implementation choices.",
+      "disciplines": [
+        "business-management",
+        "artificial-intelligence"
+      ],
+      "programmeLevels": [
+        "Graduate",
+        "Postgraduate"
+      ],
+      "deliveryFormats": [
+        "Classroom",
+        "Online",
+        "Hybrid",
+        "Executive Workshop"
+      ],
+      "subjectArea": "AI for Business",
+      "duration": "10 weeks",
+      "durationGroup": "8-10 weeks",
+      "credits": 3,
+      "featured": true,
+      "status": "published",
+      "cover": "assets/img/courses/ai-for-business.svg",
+      "icon": "brain",
+      "audience": "Managers, analysts, consultants and business students who need to evaluate and lead AI-enabled initiatives.",
+      "prerequisites": "No programming prerequisite. Familiarity with business processes is expected.",
+      "outcomes": [
+        "Explain major AI capabilities in business terms.",
+        "Identify and prioritise viable business use cases.",
+        "Evaluate data, technology and organisational readiness.",
+        "Assess value, risk and implementation alternatives.",
+        "Develop a practical AI adoption roadmap."
+      ],
+      "modules": [
+        {
+          "title": "Understanding AI in business",
+          "description": "Capabilities, limitations and the evolving business landscape."
+        },
+        {
+          "title": "Use-case discovery and prioritisation",
+          "description": "Value pools, feasibility and portfolio choices."
+        },
+        {
+          "title": "Data, platforms and operating models",
+          "description": "Foundations for implementation and scale."
+        },
+        {
+          "title": "Generative and autonomous AI applications",
+          "description": "Business workflows, human oversight and performance."
+        },
+        {
+          "title": "Implementation roadmap",
+          "description": "Governance, change, measurement and continuous improvement."
+        }
+      ],
+      "assessment": [
+        {
+          "name": "AI opportunity scan",
+          "weight": "25%"
+        },
+        {
+          "name": "Use-case business case",
+          "weight": "35%"
+        },
+        {
+          "name": "AI implementation roadmap",
+          "weight": "40%"
+        }
+      ],
+      "syllabus": "files/courses/ai-for-business/syllabus.pdf",
+      "updated": "2026-07-21",
+      "durationWeeks": 10,
+      "durationLabel": "10 weeks",
+      "license": "CC BY 4.0",
+      "rightsNotes": "Third-party trademarks, images, datasets and quoted material remain subject to their respective rights."
+    },
+    {
+      "id": "ai-manufacturing-engineering",
+      "title": "AI for Manufacturing Engineering",
+      "summary": "AI techniques for smart and efficient manufacturing systems.",
+      "description": "An applied course linking artificial intelligence with manufacturing engineering decisions, process performance, quality, maintenance and production systems.",
+      "disciplines": [
+        "engineering-management",
+        "artificial-intelligence",
+        "operations-supply-chain"
+      ],
+      "programmeLevels": [
+        "Graduate",
+        "Postgraduate"
+      ],
+      "deliveryFormats": [
+        "Classroom",
+        "Hybrid"
+      ],
+      "subjectArea": "AI for Manufacturing Engineering",
+      "duration": "14 weeks",
+      "durationGroup": "13-14 weeks",
+      "credits": 4,
+      "featured": true,
+      "status": "published",
+      "cover": "assets/img/courses/ai-manufacturing-engineering.svg",
+      "icon": "factory",
+      "audience": "Manufacturing, industrial, mechanical and engineering management students and professionals.",
+      "prerequisites": "Basic manufacturing systems knowledge and introductory statistics.",
+      "outcomes": [
+        "Identify manufacturing decisions that can benefit from AI.",
+        "Prepare sensor and production data for analysis.",
+        "Evaluate quality, maintenance and process applications.",
+        "Connect AI models with manufacturing workflows and controls.",
+        "Design an implementation proposal for a smart manufacturing use case."
+      ],
+      "modules": [
+        {
+          "title": "AI opportunities in manufacturing",
+          "description": "Production, quality, maintenance, energy and flow."
+        },
+        {
+          "title": "Industrial data foundations",
+          "description": "Sensors, historians, traceability and data quality."
+        },
+        {
+          "title": "Predictive quality and maintenance",
+          "description": "Failure patterns, anomaly detection and decision thresholds."
+        },
+        {
+          "title": "Process optimisation and intelligent control",
+          "description": "Operational recommendations and closed-loop considerations."
+        },
+        {
+          "title": "Smart manufacturing implementation",
+          "description": "Architecture, workforce, risk and value realisation."
+        }
+      ],
+      "assessment": [
+        {
+          "name": "Manufacturing data exercise",
+          "weight": "25%"
+        },
+        {
+          "name": "Applied AI case analysis",
+          "weight": "30%"
+        },
+        {
+          "name": "Smart manufacturing project",
+          "weight": "45%"
+        }
+      ],
+      "syllabus": "files/courses/ai-manufacturing-engineering/syllabus.pdf",
+      "updated": "2026-07-21",
+      "durationWeeks": 14,
+      "durationLabel": "14 weeks",
+      "license": "CC BY 4.0",
+      "rightsNotes": "Third-party trademarks, images, datasets and quoted material remain subject to their respective rights."
+    },
+    {
+      "id": "business-analytics",
+      "title": "Business Analytics",
+      "summary": "Data-driven insights for strategic and operational decision-making.",
+      "description": "A practice-oriented course that develops the ability to frame business questions, analyse data, interpret models and communicate evidence for managerial action.",
+      "disciplines": [
+        "business-management",
+        "analytics"
+      ],
+      "programmeLevels": [
+        "Graduate",
+        "Postgraduate"
+      ],
+      "deliveryFormats": [
+        "Classroom",
+        "Online",
+        "Hybrid"
+      ],
+      "subjectArea": "Business Analytics",
+      "duration": "12 weeks",
+      "durationGroup": "10-12 weeks",
+      "credits": 3,
+      "featured": true,
+      "status": "published",
+      "cover": "assets/img/courses/business-analytics.svg",
+      "icon": "chart",
+      "audience": "Business management, engineering management and early-career professionals who need practical analytical decision skills.",
+      "prerequisites": "Basic spreadsheet skills; no advanced programming required.",
+      "outcomes": [
+        "Frame business problems as answerable analytical questions.",
+        "Prepare and examine structured business data.",
+        "Select suitable descriptive, predictive and prescriptive approaches.",
+        "Interpret analytical results for managerial decisions.",
+        "Communicate recommendations through clear visual and written narratives."
+      ],
+      "modules": [
+        {
+          "title": "Business questions and analytical thinking",
+          "description": "Problem framing, decision context and measures of success."
+        },
+        {
+          "title": "Data preparation and exploration",
+          "description": "Data quality, summaries, patterns and visual analysis."
+        },
+        {
+          "title": "Predictive analysis for management",
+          "description": "Forecasting, classification and practical model interpretation."
+        },
+        {
+          "title": "Decision models and scenarios",
+          "description": "What-if analysis, optimisation and uncertainty."
+        },
+        {
+          "title": "Communicating analytical recommendations",
+          "description": "Dashboards, executive narratives and implementation choices."
+        }
+      ],
+      "assessment": [
+        {
+          "name": "Applied analysis exercises",
+          "weight": "30%"
+        },
+        {
+          "name": "Business case report",
+          "weight": "30%"
+        },
+        {
+          "name": "Final analytics project",
+          "weight": "40%"
+        }
+      ],
+      "syllabus": "files/courses/business-analytics/syllabus.pdf",
+      "updated": "2026-07-21",
+      "durationWeeks": 12,
+      "durationLabel": "12 weeks",
+      "license": "CC BY 4.0",
+      "rightsNotes": "Third-party trademarks, images, datasets and quoted material remain subject to their respective rights."
+    },
+    {
+      "id": "business-science",
+      "title": "Business Science",
+      "summary": "Models and methods for solving complex business problems.",
+      "description": "An interdisciplinary course combining business understanding, analytical methods, experimentation and systems thinking to address complex organisational problems.",
+      "disciplines": [
+        "business-management",
+        "analytics"
+      ],
+      "programmeLevels": [
+        "Graduate",
+        "Postgraduate"
+      ],
+      "deliveryFormats": [
+        "Classroom",
+        "Hybrid"
+      ],
+      "subjectArea": "Business Science",
+      "duration": "12 weeks",
+      "durationGroup": "10-12 weeks",
+      "credits": 3,
+      "featured": true,
+      "status": "published",
+      "cover": "assets/img/courses/business-science.svg",
+      "icon": "network",
+      "audience": "Students and professionals seeking an integrated approach to business problems that cross functions, data and organisational systems.",
+      "prerequisites": "Introductory business statistics or equivalent experience is helpful.",
+      "outcomes": [
+        "Diagnose complex business problems using structured inquiry.",
+        "Combine quantitative and qualitative evidence.",
+        "Design experiments and evaluate managerial interventions.",
+        "Model interactions across business functions and systems.",
+        "Translate findings into feasible organisational action."
+      ],
+      "modules": [
+        {
+          "title": "Business science as an integrated discipline",
+          "description": "Problem contexts, evidence and model-based reasoning."
+        },
+        {
+          "title": "Causal questions and experimentation",
+          "description": "Experiments, natural experiments and practical limitations."
+        },
+        {
+          "title": "Systems and stakeholder analysis",
+          "description": "Interdependencies, feedback and organisational behaviour."
+        },
+        {
+          "title": "Decision models under uncertainty",
+          "description": "Scenarios, trade-offs and robust choices."
+        },
+        {
+          "title": "From evidence to implementation",
+          "description": "Recommendations, adoption and evaluation."
+        }
+      ],
+      "assessment": [
+        {
+          "name": "Problem diagnosis brief",
+          "weight": "25%"
+        },
+        {
+          "name": "Experiment design assignment",
+          "weight": "30%"
+        },
+        {
+          "name": "Integrated business science project",
+          "weight": "45%"
+        }
+      ],
+      "syllabus": "files/courses/business-science/syllabus.pdf",
+      "updated": "2026-07-21",
+      "durationWeeks": 12,
+      "durationLabel": "12 weeks",
+      "license": "CC BY 4.0",
+      "rightsNotes": "Third-party trademarks, images, datasets and quoted material remain subject to their respective rights."
+    },
+    {
+      "id": "data-driven-decision-making",
+      "title": "Data-Driven Decision Making",
+      "summary": "From data to decisions with confidence and clarity.",
+      "description": "A managerial course on using data, evidence and structured judgement to improve decisions while recognising uncertainty, bias and organisational constraints.",
+      "disciplines": [
+        "business-management",
+        "engineering-management",
+        "analytics"
+      ],
+      "programmeLevels": [
+        "Graduate",
+        "Postgraduate"
+      ],
+      "deliveryFormats": [
+        "Classroom",
+        "Online",
+        "Hybrid",
+        "Executive Workshop"
+      ],
+      "subjectArea": "Data-Driven Decision Making",
+      "duration": "8 weeks",
+      "durationGroup": "8-10 weeks",
+      "credits": 2,
+      "featured": false,
+      "status": "published",
+      "cover": "assets/img/courses/data-driven-decision-making.svg",
+      "icon": "decision",
+      "audience": "Graduate and postgraduate students, managers and technical leaders responsible for evidence-based choices.",
+      "prerequisites": "No specialist technical prerequisite.",
+      "outcomes": [
+        "Distinguish information, evidence and managerial judgement.",
+        "Define decision criteria and relevant measures.",
+        "Interpret uncertainty and common analytical limitations.",
+        "Challenge assumptions and reduce decision bias.",
+        "Present an evidence-based recommendation to stakeholders."
+      ],
+      "modules": [
+        {
+          "title": "Decision quality and evidence",
+          "description": "Decision frames, criteria and information value."
+        },
+        {
+          "title": "Interpreting data and uncertainty",
+          "description": "Variation, confidence and practical significance."
+        },
+        {
+          "title": "Bias, incentives and organisational context",
+          "description": "Judgement traps and stakeholder dynamics."
+        },
+        {
+          "title": "Scenario and trade-off analysis",
+          "description": "Alternatives, sensitivity and robust choices."
+        },
+        {
+          "title": "Communicating decisions",
+          "description": "Recommendation structure, visual evidence and action."
+        }
+      ],
+      "assessment": [
+        {
+          "name": "Decision memo",
+          "weight": "30%"
+        },
+        {
+          "name": "Evidence critique",
+          "weight": "30%"
+        },
+        {
+          "name": "Final decision presentation",
+          "weight": "40%"
+        }
+      ],
+      "syllabus": "files/courses/data-driven-decision-making/syllabus.pdf",
+      "updated": "2026-07-21",
+      "durationWeeks": 8,
+      "durationLabel": "8 weeks",
+      "license": "CC BY 4.0",
+      "rightsNotes": "Third-party trademarks, images, datasets and quoted material remain subject to their respective rights."
+    },
+    {
+      "id": "digital-transformation-managers",
+      "title": "Digital Transformation for Managers",
+      "summary": "Lead change and innovation in the digital era.",
+      "description": "A management course on digital strategy, operating-model transformation, technology choices, organisational change and value delivery.",
+      "disciplines": [
+        "business-management",
+        "engineering-management",
+        "digital-transformation"
+      ],
+      "programmeLevels": [
+        "Graduate",
+        "Postgraduate"
+      ],
+      "deliveryFormats": [
+        "Classroom",
+        "Online",
+        "Hybrid",
+        "Executive Workshop"
+      ],
+      "subjectArea": "Digital Transformation for Managers",
+      "duration": "10 weeks",
+      "durationGroup": "8-10 weeks",
+      "credits": 3,
+      "featured": false,
+      "status": "published",
+      "cover": "assets/img/courses/digital-transformation-managers.svg",
+      "icon": "transform",
+      "audience": "Managers, technical leaders, consultants and graduate students responsible for digital change.",
+      "prerequisites": "Professional or academic exposure to organisational processes is helpful.",
+      "outcomes": [
+        "Assess digital pressures and strategic opportunities.",
+        "Define a transformation ambition and portfolio of initiatives.",
+        "Evaluate operating-model and technology implications.",
+        "Plan governance, change and capability development.",
+        "Create a value-focused transformation roadmap."
+      ],
+      "modules": [
+        {
+          "title": "Digital strategy and competitive change",
+          "description": "Business models, ecosystems and strategic priorities."
+        },
+        {
+          "title": "Customer, process and data transformation",
+          "description": "Experience, operations and enterprise information."
+        },
+        {
+          "title": "Technology and operating-model choices",
+          "description": "Platforms, architecture, sourcing and ways of working."
+        },
+        {
+          "title": "Leading organisational change",
+          "description": "Leadership, capabilities, culture and adoption."
+        },
+        {
+          "title": "Transformation portfolio and value delivery",
+          "description": "Roadmaps, governance, measures and benefits."
+        }
+      ],
+      "assessment": [
+        {
+          "name": "Digital maturity assessment",
+          "weight": "25%"
+        },
+        {
+          "name": "Transformation case analysis",
+          "weight": "30%"
+        },
+        {
+          "name": "Transformation roadmap",
+          "weight": "45%"
+        }
+      ],
+      "syllabus": "files/courses/digital-transformation-managers/syllabus.pdf",
+      "updated": "2026-07-21",
+      "durationWeeks": 10,
+      "durationLabel": "10 weeks",
+      "license": "CC BY 4.0",
+      "rightsNotes": "Third-party trademarks, images, datasets and quoted material remain subject to their respective rights."
+    },
+    {
+      "id": "operations-analytics",
+      "title": "Operations Analytics",
+      "summary": "Optimise operations through analytics and modelling.",
+      "description": "An applied course on process analysis, capacity, forecasting, inventory, scheduling and optimisation for operational performance.",
+      "disciplines": [
+        "engineering-management",
+        "analytics",
+        "operations-supply-chain"
+      ],
+      "programmeLevels": [
+        "Graduate",
+        "Postgraduate"
+      ],
+      "deliveryFormats": [
+        "Classroom",
+        "Online",
+        "Hybrid"
+      ],
+      "subjectArea": "Operations Analytics",
+      "duration": "12 weeks",
+      "durationGroup": "10-12 weeks",
+      "credits": 3,
+      "featured": false,
+      "status": "published",
+      "cover": "assets/img/courses/operations-analytics.svg",
+      "icon": "operations",
+      "audience": "Operations, supply-chain, engineering management and business analytics students and professionals.",
+      "prerequisites": "Basic quantitative methods and spreadsheet modelling.",
+      "outcomes": [
+        "Measure and diagnose operational performance.",
+        "Develop demand and workload forecasts.",
+        "Analyse capacity, queues, inventory and service levels.",
+        "Formulate scheduling and optimisation decisions.",
+        "Recommend operational improvements using analytical evidence."
+      ],
+      "modules": [
+        {
+          "title": "Operational performance and process data",
+          "description": "Flow, capacity, productivity and service measures."
+        },
+        {
+          "title": "Forecasting for operations",
+          "description": "Demand, workload and forecast evaluation."
+        },
+        {
+          "title": "Capacity, queues and service",
+          "description": "Congestion, resource decisions and service trade-offs."
+        },
+        {
+          "title": "Inventory and scheduling analytics",
+          "description": "Policies, priorities and resource allocation."
+        },
+        {
+          "title": "Optimisation and implementation",
+          "description": "Models, scenarios and operational adoption."
+        }
+      ],
+      "assessment": [
+        {
+          "name": "Operations modelling exercises",
+          "weight": "30%"
+        },
+        {
+          "name": "Process improvement case",
+          "weight": "30%"
+        },
+        {
+          "name": "Operations analytics project",
+          "weight": "40%"
+        }
+      ],
+      "syllabus": "files/courses/operations-analytics/syllabus.pdf",
+      "updated": "2026-07-21",
+      "durationWeeks": 12,
+      "durationLabel": "12 weeks",
+      "license": "CC BY 4.0",
+      "rightsNotes": "Third-party trademarks, images, datasets and quoted material remain subject to their respective rights."
+    }
+  ],
+  "materials": [
+    {
+      "id": "resource-ai-opportunity-template",
+      "type": "resource",
+      "title": "AI Opportunity Assessment Template",
+      "summary": "A reusable worksheet for evaluating business value, feasibility, readiness and implementation considerations.",
+      "courseId": "ai-for-business",
+      "duration": "Workshop resource",
+      "format": "Template",
+      "status": "published",
+      "file": "files/materials/resource-ai-opportunity-template.md",
+      "updated": "2026-07-21",
+      "license": "CC BY 4.0",
+      "rightsNotes": "Third-party trademarks, images, datasets and quoted material remain subject to their respective rights.",
+      "readingTime": 1,
+      "words": 260
+    },
+    {
+      "id": "case-autonomous-replenishment",
+      "type": "case-study",
+      "title": "Autonomous Replenishment Under Pressure",
+      "summary": "A supply-chain leader must decide how much authority to give an AI agent during a period of volatile demand.",
+      "courseId": "agentic-ai-supply-chain",
+      "duration": "90 minutes",
+      "format": "Operational decision case",
+      "status": "published",
+      "file": "files/materials/case-autonomous-replenishment.md",
+      "updated": "2026-07-21",
+      "license": "CC BY 4.0",
+      "rightsNotes": "Third-party trademarks, images, datasets and quoted material remain subject to their respective rights.",
+      "readingTime": 3,
+      "words": 525
+    },
+    {
+      "id": "presentation-operations-model",
+      "type": "presentation",
+      "title": "Building an Operations Analytics Model",
+      "summary": "A guided presentation covering process measures, forecasts, capacity and scenario analysis.",
+      "courseId": "operations-analytics",
+      "duration": "75 minutes",
+      "format": "Presentation outline",
+      "status": "published",
+      "file": "files/materials/presentation-operations-model.md",
+      "updated": "2026-07-21",
+      "license": "CC BY 4.0",
+      "rightsNotes": "Third-party trademarks, images, datasets and quoted material remain subject to their respective rights.",
+      "readingTime": 1,
+      "words": 296
+    },
+    {
+      "id": "resource-analytics-dataset-pack",
+      "type": "resource",
+      "title": "Business Analytics Dataset Pack",
+      "summary": "A structured set of classroom dataset descriptions and activity prompts for applied business analysis.",
+      "courseId": "business-analytics",
+      "duration": "Self-paced",
+      "format": "Dataset guide",
+      "status": "published",
+      "file": "files/materials/resource-analytics-dataset-pack.md",
+      "updated": "2026-07-21",
+      "license": "CC BY 4.0",
+      "rightsNotes": "Third-party trademarks, images, datasets and quoted material remain subject to their respective rights.",
+      "readingTime": 1,
+      "words": 237
+    },
+    {
+      "id": "presentation-digital-roadmap",
+      "type": "presentation",
+      "title": "Designing a Digital Transformation Roadmap",
+      "summary": "A manager-focused presentation on priorities, sequencing, operating-model change and value delivery.",
+      "courseId": "digital-transformation-managers",
+      "duration": "75 minutes",
+      "format": "Presentation outline",
+      "status": "published",
+      "file": "files/materials/presentation-digital-roadmap.md",
+      "updated": "2026-07-21",
+      "license": "CC BY 4.0",
+      "rightsNotes": "Third-party trademarks, images, datasets and quoted material remain subject to their respective rights.",
+      "readingTime": 1,
+      "words": 287
+    },
+    {
+      "id": "presentation-data-to-decisions",
+      "type": "presentation",
+      "title": "From Data to Decisions",
+      "summary": "A lecture deck on structuring decisions, evaluating evidence and communicating recommendations.",
+      "courseId": "data-driven-decision-making",
+      "duration": "60 minutes",
+      "format": "Presentation outline",
+      "status": "published",
+      "file": "files/materials/presentation-data-to-decisions.md",
+      "updated": "2026-07-21",
+      "license": "CC BY 4.0",
+      "rightsNotes": "Third-party trademarks, images, datasets and quoted material remain subject to their respective rights.",
+      "readingTime": 2,
+      "words": 329
+    },
+    {
+      "id": "resource-operations-workbook-guide",
+      "type": "resource",
+      "title": "Operations Modelling Workbook Guide",
+      "summary": "A practical guide for structuring capacity, inventory and scenario models in a spreadsheet.",
+      "courseId": "operations-analytics",
+      "duration": "Self-paced",
+      "format": "Workbook guide",
+      "status": "published",
+      "file": "files/materials/resource-operations-workbook-guide.md",
+      "updated": "2026-07-21",
+      "license": "CC BY 4.0",
+      "rightsNotes": "Third-party trademarks, images, datasets and quoted material remain subject to their respective rights.",
+      "readingTime": 1,
+      "words": 236
+    },
+    {
+      "id": "case-ai-vendor-selection",
+      "type": "case-study",
+      "title": "Selecting an AI Platform Partner",
+      "summary": "A business unit compares competing AI proposals with different value claims, data requirements and implementation risks.",
+      "courseId": "ai-for-business",
+      "duration": "90 minutes",
+      "format": "Decision case with exhibits",
+      "status": "published",
+      "file": "files/materials/case-ai-vendor-selection.md",
+      "updated": "2026-07-21",
+      "license": "CC BY 4.0",
+      "rightsNotes": "Third-party trademarks, images, datasets and quoted material remain subject to their respective rights.",
+      "readingTime": 3,
+      "words": 522
+    },
+    {
+      "id": "project-smart-factory-decision-system",
+      "type": "project",
+      "title": "Smart Factory Decision System",
+      "summary": "Develop a practical proposal for an AI-supported manufacturing decision process using operational and sensor data.",
+      "courseId": "ai-manufacturing-engineering",
+      "duration": "6 weeks",
+      "format": "Capstone brief",
+      "status": "published",
+      "file": "files/materials/project-smart-factory-decision-system.md",
+      "updated": "2026-07-21",
+      "license": "CC BY 4.0",
+      "rightsNotes": "Third-party trademarks, images, datasets and quoted material remain subject to their respective rights.",
+      "readingTime": 2,
+      "words": 307
+    },
+    {
+      "id": "project-supply-chain-control-tower",
+      "type": "project",
+      "title": "Supply-Chain Control Tower Project",
+      "summary": "Design an agent-enabled control tower that identifies disruptions, recommends actions and escalates exceptions.",
+      "courseId": "agentic-ai-supply-chain",
+      "duration": "6 weeks",
+      "format": "Capstone brief",
+      "status": "published",
+      "file": "files/materials/project-supply-chain-control-tower.md",
+      "updated": "2026-07-21",
+      "license": "CC BY 4.0",
+      "rightsNotes": "Third-party trademarks, images, datasets and quoted material remain subject to their respective rights.",
+      "readingTime": 1,
+      "words": 299
+    },
+    {
+      "id": "case-predictive-maintenance-rollout",
+      "type": "case-study",
+      "title": "The Predictive Maintenance Rollout",
+      "summary": "A manufacturing plant evaluates whether to expand an AI maintenance pilot despite uneven model performance across production lines.",
+      "courseId": "ai-manufacturing-engineering",
+      "duration": "90 minutes",
+      "format": "Engineering management case",
+      "status": "published",
+      "file": "files/materials/case-predictive-maintenance-rollout.md",
+      "updated": "2026-07-21",
+      "license": "CC BY 4.0",
+      "rightsNotes": "Third-party trademarks, images, datasets and quoted material remain subject to their respective rights.",
+      "readingTime": 2,
+      "words": 456
+    },
+    {
+      "id": "case-retail-growth-dashboard",
+      "type": "case-study",
+      "title": "The Retail Growth Dashboard",
+      "summary": "A management team must decide which performance signals deserve action when revenue and customer metrics point in different directions.",
+      "courseId": "business-analytics",
+      "duration": "75 minutes",
+      "format": "Student case and discussion questions",
+      "status": "published",
+      "file": "files/materials/case-retail-growth-dashboard.md",
+      "updated": "2026-07-21",
+      "license": "CC BY 4.0",
+      "rightsNotes": "Third-party trademarks, images, datasets and quoted material remain subject to their respective rights.",
+      "readingTime": 2,
+      "words": 453
+    },
+    {
+      "id": "case-evidence-conflict",
+      "type": "case-study",
+      "title": "When the Evidence Conflicts",
+      "summary": "A leadership team must reconcile experimental results, customer feedback and commercial pressure before approving a new initiative.",
+      "courseId": "business-science",
+      "duration": "75 minutes",
+      "format": "Decision case",
+      "status": "published",
+      "file": "files/materials/case-evidence-conflict.md",
+      "updated": "2026-07-21",
+      "license": "CC BY 4.0",
+      "rightsNotes": "Third-party trademarks, images, datasets and quoted material remain subject to their respective rights.",
+      "readingTime": 2,
+      "words": 463
+    }
+  ]
+}

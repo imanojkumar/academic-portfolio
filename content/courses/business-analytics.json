@@ -1,0 +1,78 @@
+{
+  "id": "business-analytics",
+  "title": "Business Analytics",
+  "summary": "Data-driven insights for strategic and operational decision-making.",
+  "description": "A practice-oriented course that develops the ability to frame business questions, analyse data, interpret models and communicate evidence for managerial action.",
+  "disciplines": [
+    "business-management",
+    "analytics"
+  ],
+  "programmeLevels": [
+    "Graduate",
+    "Postgraduate"
+  ],
+  "deliveryFormats": [
+    "Classroom",
+    "Online",
+    "Hybrid"
+  ],
+  "subjectArea": "Business Analytics",
+  "duration": "12 weeks",
+  "durationGroup": "10-12 weeks",
+  "credits": 3,
+  "featured": true,
+  "status": "published",
+  "cover": "assets/img/courses/business-analytics.svg",
+  "icon": "chart",
+  "audience": "Business management, engineering management and early-career professionals who need practical analytical decision skills.",
+  "prerequisites": "Basic spreadsheet skills; no advanced programming required.",
+  "outcomes": [
+    "Frame business problems as answerable analytical questions.",
+    "Prepare and examine structured business data.",
+    "Select suitable descriptive, predictive and prescriptive approaches.",
+    "Interpret analytical results for managerial decisions.",
+    "Communicate recommendations through clear visual and written narratives."
+  ],
+  "modules": [
+    {
+      "title": "Business questions and analytical thinking",
+      "description": "Problem framing, decision context and measures of success."
+    },
+    {
+      "title": "Data preparation and exploration",
+      "description": "Data quality, summaries, patterns and visual analysis."
+    },
+    {
+      "title": "Predictive analysis for management",
+      "description": "Forecasting, classification and practical model interpretation."
+    },
+    {
+      "title": "Decision models and scenarios",
+      "description": "What-if analysis, optimisation and uncertainty."
+    },
+    {
+      "title": "Communicating analytical recommendations",
+      "description": "Dashboards, executive narratives and implementation choices."
+    }
+  ],
+  "assessment": [
+    {
+      "name": "Applied analysis exercises",
+      "weight": "30%"
+    },
+    {
+      "name": "Business case report",
+      "weight": "30%"
+    },
+    {
+      "name": "Final analytics project",
+      "weight": "40%"
+    }
+  ],
+  "syllabus": "files/courses/business-analytics/syllabus.pdf",
+  "updated": "2026-07-21",
+  "durationWeeks": 12,
+  "durationLabel": "12 weeks",
+  "license": "CC BY 4.0",
+  "rightsNotes": "Third-party trademarks, images, datasets and quoted material remain subject to their respective rights."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "resource-operations-workbook-guide",
+  "type": "resource",
+  "title": "Operations Modelling Workbook Guide",
+  "summary": "A practical guide for structuring capacity, inventory and scenario models in a spreadsheet.",
+  "courseId": "operations-analytics",
+  "duration": "Self-paced",
+  "format": "Workbook guide",
+  "status": "published",
+  "file": "files/materials/resource-operations-workbook-guide.md",
+  "updated": "2026-07-21",
+  "license": "CC BY 4.0",
+  "rightsNotes": "Third-party trademarks, images, datasets and quoted material remain subject to their respective rights."
+}

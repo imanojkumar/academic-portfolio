@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 410 280" role="img" aria-label="Operations Analytics abstract course cover">
+<defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#092841"/><stop offset=".62" stop-color="#0b7580"/><stop offset="1" stop-color="#50bdc2"/></linearGradient><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0v28" fill="none" stroke="#fff" stroke-opacity=".09"/></pattern></defs>
+<rect width="410" height="280" fill="url(#bg)"/><rect width="410" height="280" fill="url(#grid)"/>
+<circle cx="355" cy="35" r="105" fill="#fff" opacity=".06"/><circle cx="42" cy="264" r="112" fill="#fff" opacity=".05"/>
+<g opacity=".93"><g fill="none" stroke="#fff" stroke-width="7"><path d="M69 202c48-81 102-98 162-53 39 29 77 20 113-27"/><path d="M70 118h80M258 202h88"/><circle cx="205" cy="145" r="56"/><path d="M205 108v74M168 145h74"/></g></g></svg>

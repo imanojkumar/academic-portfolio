@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 410 280" role="img" aria-label="Digital Transformation for Managers abstract course cover">
+<defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#0b2c48"/><stop offset=".62" stop-color="#1a6d83"/><stop offset="1" stop-color="#75c3cf"/></linearGradient><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0v28" fill="none" stroke="#fff" stroke-opacity=".09"/></pattern></defs>
+<rect width="410" height="280" fill="url(#bg)"/><rect width="410" height="280" fill="url(#grid)"/>
+<circle cx="355" cy="35" r="105" fill="#fff" opacity=".06"/><circle cx="42" cy="264" r="112" fill="#fff" opacity=".05"/>
+<g opacity=".93"><g fill="none" stroke="#fff" stroke-width="7"><rect x="77" y="63" width="256" height="160" rx="14"/><path d="M111 189l55-54 44 35 75-76"/><circle cx="285" cy="94" r="10" fill="#fff"/><path d="M125 85h70M125 106h45"/></g></g></svg>

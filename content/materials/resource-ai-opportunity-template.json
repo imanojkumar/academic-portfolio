@@ -1,0 +1,14 @@
+{
+  "id": "resource-ai-opportunity-template",
+  "type": "resource",
+  "title": "AI Opportunity Assessment Template",
+  "summary": "A reusable worksheet for evaluating business value, feasibility, readiness and implementation considerations.",
+  "courseId": "ai-for-business",
+  "duration": "Workshop resource",
+  "format": "Template",
+  "status": "published",
+  "file": "files/materials/resource-ai-opportunity-template.md",
+  "updated": "2026-07-21",
+  "license": "CC BY 4.0",
+  "rightsNotes": "Third-party trademarks, images, datasets and quoted material remain subject to their respective rights."
+}

@@ -1,0 +1,24 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": [
+        "/content/courses/*.json"
+      ],
+      "url": "./content/course.schema.json"
+    },
+    {
+      "fileMatch": [
+        "/content/materials/*.json"
+      ],
+      "url": "./content/material.schema.json"
+    },
+    {
+      "fileMatch": [
+        "/content/profile.json"
+      ],
+      "url": "./content/profile.schema.json"
+    }
+  ],
+  "files.eol": "\n",
+  "editor.formatOnSave": true
+}

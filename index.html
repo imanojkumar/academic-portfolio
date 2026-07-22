@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Graduate and postgraduate courses for Business Management and Engineering.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Manoj Kumar - Graduate and Postgraduate Course Portfolio">
+  <meta property="og:description" content="Courses, case studies, presentations, projects and teaching resources for Business Management and Engineering.">
+  <meta property="og:image" content="assets/img/social-card.svg">
+  <title>Manoj Kumar - Course Portfolio</title>
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <link rel="alternate" type="application/rss+xml" title="Course Portfolio" href="feed.xml">
+  <script>
+    try {
+      var saved = localStorage.getItem('academic-portfolio-theme');
+      var theme = saved || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', theme);
+    } catch (e) {}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a class="brand" href="#/" aria-label="Home">
+        <span class="brand-mark" id="brandMark">MK</span>
+        <span class="brand-copy"><strong id="brandName">Manoj Kumar</strong><small id="brandRole">Graduate and Postgraduate Course Portfolio</small></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Primary">
+        <a href="#/">Home</a><a href="#/courses">Courses</a><a href="#/case-studies">Case Studies</a><a href="#/presentations">Presentations</a><a href="#/projects">Projects</a><a href="#/resources">Resources</a><a href="#/about">About</a>
+      </nav>
+      <div class="header-actions">
+        <a class="icon-button" href="#/courses?focus=search" aria-label="Search courses" title="Search courses">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4 4"/></svg>
+        </a>
+        <button class="icon-button" id="themeButton" type="button" aria-label="Change colour theme" title="Change colour theme">
+          <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"/></svg>
+          <svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.3A8.5 8.5 0 0 1 9.7 3.5 8.5 8.5 0 1 0 20.5 14.3z"/></svg>
+        </button>
+        <button class="icon-button menu-button" id="menuButton" type="button" aria-label="Open navigation" aria-expanded="false">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+    <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation" hidden>
+      <a href="#/">Home</a><a href="#/courses">Courses</a><a href="#/case-studies">Case Studies</a><a href="#/presentations">Presentations</a><a href="#/projects">Projects</a><a href="#/resources">Resources</a><a href="#/about">About</a><a href="#/contact">Contact</a>
+    </nav>
+  </header>
+  <main id="main" tabindex="-1"><div class="loading-state">Loading portfolio...</div></main>
+  <footer class="site-footer"><div class="container" id="footerContent"></div></footer>
+  <script src="assets/js/vendor/marked.min.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

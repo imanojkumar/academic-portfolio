@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#03192c"/><stop offset="1" stop-color="#0a8790"/></linearGradient></defs>
+<rect width="1200" height="630" fill="url(#g)"/><circle cx="1060" cy="80" r="260" fill="#fff" opacity=".06"/><circle cx="80" cy="620" r="310" fill="#fff" opacity=".05"/>
+<rect x="80" y="92" width="82" height="82" rx="9" fill="none" stroke="#72d0d1" stroke-width="3"/><text x="121" y="145" text-anchor="middle" fill="#72d0d1" font-family="Georgia" font-size="34" font-weight="bold">MK</text>
+<text x="80" y="275" fill="#fff" font-family="Georgia" font-size="62" font-weight="bold">Graduate and Postgraduate</text><text x="80" y="350" fill="#fff" font-family="Georgia" font-size="62" font-weight="bold">Course Portfolio</text>
+<text x="82" y="420" fill="#b8dfe1" font-family="Arial" font-size="27">Business Management · Engineering · Analytics · Artificial Intelligence</text>
+<text x="82" y="525" fill="#fff" font-family="Arial" font-size="28">Manoj Kumar</text>
+</svg>

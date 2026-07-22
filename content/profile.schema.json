@@ -1,0 +1,253 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Academic profile",
+  "description": "Structured data source for the About / profile page. Any record with status 'draft', any link with an empty url, and any card missing its required fields is hidden from the production build.",
+  "type": "object",
+  "required": ["hero"],
+  "additionalProperties": true,
+  "definitions": {
+    "status": {
+      "type": "string",
+      "enum": ["draft", "published"],
+      "description": "Draft records are hidden in the production build and visible only in the local draft preview."
+    },
+    "focusList": {
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "icon": { "type": "string" },
+        "items": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "package": {
+      "type": "object",
+      "required": ["name"],
+      "properties": {
+        "status": { "$ref": "#/definitions/status" },
+        "name": { "type": "string" },
+        "description": { "type": "string" },
+        "version": { "type": "string" },
+        "kind": { "type": "string" },
+        "pypiUrl": { "type": "string" },
+        "cranUrl": { "type": "string" },
+        "githubUrl": { "type": "string" },
+        "docsUrl": { "type": "string" },
+        "url": { "type": "string" }
+      }
+    },
+    "engagement": {
+      "type": "object",
+      "required": ["title"],
+      "properties": {
+        "status": { "$ref": "#/definitions/status" },
+        "title": { "type": "string" },
+        "organisation": { "type": "string" },
+        "audience": { "type": "string" },
+        "location": { "type": "string" },
+        "year": { "type": "string" },
+        "duration": { "type": "string" },
+        "description": { "type": "string" },
+        "tags": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  },
+  "properties": {
+    "hero": {
+      "type": "object",
+      "required": ["name", "headline"],
+      "properties": {
+        "name": { "type": "string" },
+        "headline": { "type": "string", "description": "Confirm or adjust this professional headline before publishing." },
+        "summary": { "type": "string", "description": "Two to three sentences." },
+        "photo": { "type": "string", "description": "Path to a profile image, e.g. assets/img/profile/manoj-kumar.jpg. Leave empty to show initials." },
+        "photoAlt": { "type": "string" },
+        "contact": {
+          "type": "object",
+          "properties": {
+            "location": { "type": "string" },
+            "email": { "type": "string" },
+            "phone": { "type": "string" },
+            "officeHours": { "type": "string" }
+          }
+        },
+        "cvUrl": { "type": "string", "description": "Path or URL to a downloadable CV. The button is hidden when empty." }
+      }
+    },
+    "social": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["label", "icon", "url"],
+        "properties": {
+          "label": { "type": "string" },
+          "icon": {
+            "type": "string",
+            "enum": ["github", "google-scholar", "orcid", "researchgate", "linkedin", "stackoverflow", "blog", "cv"]
+          },
+          "url": { "type": "string", "description": "Hidden from production when empty." },
+          "status": { "$ref": "#/definitions/status" }
+        }
+      }
+    },
+    "focus": {
+      "type": "object",
+      "properties": {
+        "professional": { "$ref": "#/definitions/focusList" },
+        "teaching": { "$ref": "#/definitions/focusList" },
+        "industry": {
+          "type": "object",
+          "properties": {
+            "title": { "type": "string" },
+            "icon": { "type": "string" },
+            "description": { "type": "string" },
+            "years": { "type": "string", "description": "Numeric experience summary. Hidden until a real value is supplied." }
+          }
+        },
+        "expertise": { "$ref": "#/definitions/focusList" }
+      }
+    },
+    "education": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["qualification", "institution"],
+        "properties": {
+          "status": { "$ref": "#/definitions/status" },
+          "qualification": { "type": "string" },
+          "discipline": { "type": "string" },
+          "institution": { "type": "string" },
+          "country": { "type": "string" },
+          "year": { "type": "string" },
+          "distinction": { "type": "string" }
+        }
+      }
+    },
+    "books": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["title"],
+        "properties": {
+          "status": { "$ref": "#/definitions/status" },
+          "title": { "type": "string" },
+          "subtitle": { "type": "string" },
+          "publisher": { "type": "string" },
+          "year": { "type": "string" },
+          "isbn": { "type": "string" },
+          "cover": { "type": "string" },
+          "description": { "type": "string" },
+          "viewUrl": { "type": "string" },
+          "detailsUrl": { "type": "string" }
+        }
+      }
+    },
+    "software": {
+      "type": "object",
+      "properties": {
+        "python": { "type": "array", "items": { "$ref": "#/definitions/package" } },
+        "r": { "type": "array", "items": { "$ref": "#/definitions/package" } },
+        "other": { "type": "array", "items": { "$ref": "#/definitions/package" } }
+      }
+    },
+    "consulting": { "type": "array", "items": { "$ref": "#/definitions/engagement" } },
+    "conferences": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name"],
+        "properties": {
+          "status": { "$ref": "#/definitions/status" },
+          "name": { "type": "string" },
+          "role": { "type": "string" },
+          "location": { "type": "string" },
+          "date": { "type": "string" },
+          "topic": { "type": "string" },
+          "url": { "type": "string" }
+        }
+      }
+    },
+    "talks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["title"],
+        "properties": {
+          "status": { "$ref": "#/definitions/status" },
+          "title": { "type": "string" },
+          "organisation": { "type": "string" },
+          "audience": { "type": "string" },
+          "year": { "type": "string" },
+          "topic": { "type": "string" },
+          "url": { "type": "string" }
+        }
+      }
+    },
+    "accolades": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["title"],
+        "properties": {
+          "status": { "$ref": "#/definitions/status" },
+          "title": { "type": "string" },
+          "detail": { "type": "string" },
+          "year": { "type": "string" }
+        }
+      }
+    },
+    "service": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["category"],
+        "properties": {
+          "status": { "$ref": "#/definitions/status" },
+          "category": { "type": "string" },
+          "detail": { "type": "string" }
+        }
+      }
+    },
+    "memberships": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["organisation"],
+        "properties": {
+          "status": { "$ref": "#/definitions/status" },
+          "organisation": { "type": "string" },
+          "role": { "type": "string" },
+          "since": { "type": "string" }
+        }
+      }
+    },
+    "stats": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["value", "label"],
+        "properties": {
+          "status": { "$ref": "#/definitions/status" },
+          "value": { "type": "string" },
+          "label": { "type": "string" }
+        }
+      }
+    },
+    "researchInterests": { "type": "array", "items": { "type": "string" } },
+    "teachingInterests": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "Business Analytics",
+          "Business Science",
+          "AI for Business",
+          "Agentic AI in Supply Chain",
+          "AI for Manufacturing Engineering",
+          "Data-Driven Decision Making",
+          "Operations Analytics",
+          "Digital Transformation for Managers"
+        ]
+      }
+    }
+  }
+}

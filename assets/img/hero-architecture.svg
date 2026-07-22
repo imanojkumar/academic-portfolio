@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 640" role="img" aria-label="Abstract architectural forms">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#e8f3f5"/><stop offset="1" stop-color="#bcdbe0"/></linearGradient>
+    <linearGradient id="g2" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#d8e5ea"/></linearGradient>
+    <linearGradient id="g3" x1="0" x2="1"><stop stop-color="#0c7b83"/><stop offset="1" stop-color="#06233d"/></linearGradient>
+  </defs>
+  <rect width="760" height="640" fill="#f4f8fa"/>
+  <path d="M360 70C470 40 620 70 730 180v460H300c28-98 34-196 15-292-18-91-3-185 45-278z" fill="url(#g1)"/>
+  <path d="M485 90c-14 140-9 275 15 405 10 55 42 103 95 145H360c-9-118 2-224 34-320 27-83 57-160 91-230z" fill="url(#g2)"/>
+  <path d="M547 160c42 70 70 143 85 220 14 74 11 161-8 260H500c29-80 40-158 32-235-7-72-2-154 15-245z" fill="#ffffff" opacity=".9"/>
+  <path d="M319 640c67-68 119-142 156-222 36-77 60-166 72-267" fill="none" stroke="url(#g3)" stroke-width="10" opacity=".7"/>
+  <g opacity=".38" stroke="#6aa9b1" stroke-width="2">
+    <path d="M438 192h235M420 246h270M402 300h301M385 354h330M368 408h350M350 462h370M332 516h390"/>
+    <path d="M470 105v535M525 90v550M580 100v540M635 125v515M690 160v480"/>
+  </g>
+  <circle cx="180" cy="190" r="96" fill="#e0eff1"/>
+  <circle cx="180" cy="190" r="58" fill="#f4f8fa"/>
+  <path d="M78 500c77-51 154-56 231-15" fill="none" stroke="#0c7b83" stroke-width="3" opacity=".45"/>
+  <path d="M62 535c94-64 187-69 281-14" fill="none" stroke="#0c7b83" stroke-width="2" opacity=".25"/>
+</svg>

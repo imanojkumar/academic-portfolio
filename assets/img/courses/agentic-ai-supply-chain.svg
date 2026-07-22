@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 410 280" role="img" aria-label="Agentic AI in Supply Chain abstract course cover">
+<defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#0a2e42"/><stop offset=".62" stop-color="#0d8b84"/><stop offset="1" stop-color="#6bd0c2"/></linearGradient><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0v28" fill="none" stroke="#fff" stroke-opacity=".09"/></pattern></defs>
+<rect width="410" height="280" fill="url(#bg)"/><rect width="410" height="280" fill="url(#grid)"/>
+<circle cx="355" cy="35" r="105" fill="#fff" opacity=".06"/><circle cx="42" cy="264" r="112" fill="#fff" opacity=".05"/>
+<g opacity=".93"><g fill="none" stroke="#fff" stroke-width="7"><rect x="62" y="156" width="68" height="62" rx="10"/><rect x="171" y="93" width="68" height="62" rx="10"/><rect x="280" y="156" width="68" height="62" rx="10"/><path d="M130 187h41M239 124h42M205 155v62M96 156V96h109M314 156V96H239"/></g></g></svg>

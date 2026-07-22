@@ -1,0 +1,76 @@
+name: Validate
+
+on:
+  push:
+    branches: [main, 'feature/**']
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Build (published only — drafts must never be included)
+        run: npm run build
+
+      - name: Confirm generated artefacts are committed and current
+        run: |
+          if [ -n "$(git status --porcelain content/index.json sitemap.xml feed.xml courses materials case-studies presentations projects resources about contact)" ]; then
+            echo "::error::Generated artefacts are out of date. Run 'npm run build' and commit the result."
+            git --no-pager diff --stat
+            exit 1
+          fi
+
+      - name: Assert no draft leaked into a published artefact
+        run: |
+          node -e "
+            const fs = require('fs');
+            const idx = JSON.parse(fs.readFileSync('content/index.json','utf8'));
+            if (idx.draftPreview) { console.error('index.json was built in draft-preview mode'); process.exit(1); }
+            const leaked = [...idx.courses, ...idx.materials].filter(x => x.status === 'draft');
+            if (leaked.length) { console.error('draft leak: ' + leaked.map(x=>x.id).join(', ')); process.exit(1); }
+            const draftIds = fs.readdirSync('content/materials')
+              .map(f => JSON.parse(fs.readFileSync('content/materials/'+f,'utf8')))
+              .filter(m => m.status === 'draft').map(m => m.id);
+            for (const id of draftIds) {
+              if (fs.existsSync('materials/'+id)) { console.error('draft page generated: '+id); process.exit(1); }
+              if (fs.readFileSync('sitemap.xml','utf8').includes('/materials/'+id+'/')) {
+                console.error('draft in sitemap: '+id); process.exit(1);
+              }
+            }
+            console.log('No draft content reached a published artefact.');
+          "
+
+      - name: Assert the sitemap contains no hash URLs
+        run: |
+          if grep -q '#' sitemap.xml; then
+            echo "::error::Hash URLs are not permitted in sitemap.xml (Addendum A, C6)."
+            exit 1
+          fi
+
+      - name: Confirm local-only documents are untracked
+        run: |
+          for f in PROJECT_HANDOFF.md SETUP_TUTORIAL.md; do
+            if git ls-files --error-unmatch "$f" >/dev/null 2>&1; then
+              echo "::error::$f is tracked but must remain local-only (Addendum A, C8)."
+              exit 1
+            fi
+          done
+          echo "Local-only documents are correctly untracked."
+
+      - name: Confirm no runtime dependencies were introduced
+        run: |
+          node -e "
+            const p = require('./package.json');
+            if (p.dependencies && Object.keys(p.dependencies).length) {
+              console.error('Runtime dependencies are not permitted.'); process.exit(1);
+            }
+            console.log('No runtime dependencies.');
+          "

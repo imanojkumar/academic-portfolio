@@ -1,0 +1,79 @@
+{
+  "id": "ai-for-business",
+  "title": "AI for Business",
+  "summary": "AI concepts and practical applications for business leaders.",
+  "description": "A managerial introduction to artificial intelligence focused on use-case selection, business value, operating implications, risk and implementation choices.",
+  "disciplines": [
+    "business-management",
+    "artificial-intelligence"
+  ],
+  "programmeLevels": [
+    "Graduate",
+    "Postgraduate"
+  ],
+  "deliveryFormats": [
+    "Classroom",
+    "Online",
+    "Hybrid",
+    "Executive Workshop"
+  ],
+  "subjectArea": "AI for Business",
+  "duration": "10 weeks",
+  "durationGroup": "8-10 weeks",
+  "credits": 3,
+  "featured": true,
+  "status": "published",
+  "cover": "assets/img/courses/ai-for-business.svg",
+  "icon": "brain",
+  "audience": "Managers, analysts, consultants and business students who need to evaluate and lead AI-enabled initiatives.",
+  "prerequisites": "No programming prerequisite. Familiarity with business processes is expected.",
+  "outcomes": [
+    "Explain major AI capabilities in business terms.",
+    "Identify and prioritise viable business use cases.",
+    "Evaluate data, technology and organisational readiness.",
+    "Assess value, risk and implementation alternatives.",
+    "Develop a practical AI adoption roadmap."
+  ],
+  "modules": [
+    {
+      "title": "Understanding AI in business",
+      "description": "Capabilities, limitations and the evolving business landscape."
+    },
+    {
+      "title": "Use-case discovery and prioritisation",
+      "description": "Value pools, feasibility and portfolio choices."
+    },
+    {
+      "title": "Data, platforms and operating models",
+      "description": "Foundations for implementation and scale."
+    },
+    {
+      "title": "Generative and autonomous AI applications",
+      "description": "Business workflows, human oversight and performance."
+    },
+    {
+      "title": "Implementation roadmap",
+      "description": "Governance, change, measurement and continuous improvement."
+    }
+  ],
+  "assessment": [
+    {
+      "name": "AI opportunity scan",
+      "weight": "25%"
+    },
+    {
+      "name": "Use-case business case",
+      "weight": "35%"
+    },
+    {
+      "name": "AI implementation roadmap",
+      "weight": "40%"
+    }
+  ],
+  "syllabus": "files/courses/ai-for-business/syllabus.pdf",
+  "updated": "2026-07-21",
+  "durationWeeks": 10,
+  "durationLabel": "10 weeks",
+  "license": "CC BY 4.0",
+  "rightsNotes": "Third-party trademarks, images, datasets and quoted material remain subject to their respective rights."
+}

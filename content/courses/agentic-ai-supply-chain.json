@@ -1,0 +1,79 @@
+{
+  "id": "agentic-ai-supply-chain",
+  "title": "Agentic AI in Supply Chain",
+  "summary": "Autonomous agents for resilient and intelligent supply chains.",
+  "description": "A specialised course on designing, evaluating and governing AI agents across planning, procurement, logistics, inventory and supply-chain control processes.",
+  "disciplines": [
+    "artificial-intelligence",
+    "operations-supply-chain",
+    "engineering-management"
+  ],
+  "programmeLevels": [
+    "Graduate",
+    "Postgraduate"
+  ],
+  "deliveryFormats": [
+    "Classroom",
+    "Online",
+    "Hybrid"
+  ],
+  "subjectArea": "Agentic AI in Supply Chain",
+  "duration": "10 weeks",
+  "durationGroup": "8-10 weeks",
+  "credits": 3,
+  "featured": true,
+  "status": "published",
+  "cover": "assets/img/courses/agentic-ai-supply-chain.svg",
+  "icon": "supply",
+  "audience": "Supply-chain, operations and engineering management students and professionals exploring intelligent workflow automation.",
+  "prerequisites": "Introductory knowledge of supply-chain processes; prior AI experience is not required.",
+  "outcomes": [
+    "Map supply-chain decisions suitable for AI-agent support.",
+    "Design agent roles, tools, data access and human controls.",
+    "Evaluate reliability, coordination and operational risk.",
+    "Develop performance measures for agent-enabled workflows.",
+    "Propose a phased implementation for a supply-chain use case."
+  ],
+  "modules": [
+    {
+      "title": "Supply-chain decisions and agent opportunities",
+      "description": "Planning, procurement, inventory, logistics and service."
+    },
+    {
+      "title": "Agent design and workflow orchestration",
+      "description": "Roles, tools, memory, hand-offs and escalation."
+    },
+    {
+      "title": "Data and enterprise-system integration",
+      "description": "Operational data, APIs and process constraints."
+    },
+    {
+      "title": "Reliability, controls and governance",
+      "description": "Human oversight, exception handling and accountability."
+    },
+    {
+      "title": "Pilot design and scale-up",
+      "description": "Metrics, operating change and implementation roadmap."
+    }
+  ],
+  "assessment": [
+    {
+      "name": "Process opportunity map",
+      "weight": "25%"
+    },
+    {
+      "name": "Agent workflow design",
+      "weight": "35%"
+    },
+    {
+      "name": "Supply-chain pilot proposal",
+      "weight": "40%"
+    }
+  ],
+  "syllabus": "files/courses/agentic-ai-supply-chain/syllabus.pdf",
+  "updated": "2026-07-21",
+  "durationWeeks": 10,
+  "durationLabel": "10 weeks",
+  "license": "CC BY 4.0",
+  "rightsNotes": "Third-party trademarks, images, datasets and quoted material remain subject to their respective rights."
+}

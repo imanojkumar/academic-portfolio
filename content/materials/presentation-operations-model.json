@@ -1,0 +1,14 @@
+{
+  "id": "presentation-operations-model",
+  "type": "presentation",
+  "title": "Building an Operations Analytics Model",
+  "summary": "A guided presentation covering process measures, forecasts, capacity and scenario analysis.",
+  "courseId": "operations-analytics",
+  "duration": "75 minutes",
+  "format": "Presentation outline",
+  "status": "published",
+  "file": "files/materials/presentation-operations-model.md",
+  "updated": "2026-07-21",
+  "license": "CC BY 4.0",
+  "rightsNotes": "Third-party trademarks, images, datasets and quoted material remain subject to their respective rights."
+}

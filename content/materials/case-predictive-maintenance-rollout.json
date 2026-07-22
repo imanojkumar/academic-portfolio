@@ -1,0 +1,14 @@
+{
+  "id": "case-predictive-maintenance-rollout",
+  "type": "case-study",
+  "title": "The Predictive Maintenance Rollout",
+  "summary": "A manufacturing plant evaluates whether to expand an AI maintenance pilot despite uneven model performance across production lines.",
+  "courseId": "ai-manufacturing-engineering",
+  "duration": "90 minutes",
+  "format": "Engineering management case",
+  "status": "published",
+  "file": "files/materials/case-predictive-maintenance-rollout.md",
+  "updated": "2026-07-21",
+  "license": "CC BY 4.0",
+  "rightsNotes": "Third-party trademarks, images, datasets and quoted material remain subject to their respective rights."
+}

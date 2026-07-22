@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 410 280" role="img" aria-label="AI for Manufacturing Engineering abstract course cover">
+<defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#082a45"/><stop offset=".62" stop-color="#167184"/><stop offset="1" stop-color="#6bc1c9"/></linearGradient><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0v28" fill="none" stroke="#fff" stroke-opacity=".09"/></pattern></defs>
+<rect width="410" height="280" fill="url(#bg)"/><rect width="410" height="280" fill="url(#grid)"/>
+<circle cx="355" cy="35" r="105" fill="#fff" opacity=".06"/><circle cx="42" cy="264" r="112" fill="#fff" opacity=".05"/>
+<g opacity=".93"><g fill="none" stroke="#fff" stroke-width="7"><path d="M70 220V112l50-28v136M120 220V62l72 35v123M192 220v-90l58-25v115M250 220v-62l83-33v95"/><path d="M52 220h306"/><circle cx="275" cy="80" r="25"/><path d="M275 42v18M275 100v18M237 80h18M295 80h18"/></g></g></svg>

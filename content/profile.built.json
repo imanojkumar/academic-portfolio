@@ -1,0 +1,109 @@
+{
+  "draftPreview": false,
+  "hero": {
+    "name": "Manoj Kumar",
+    "headline": "Professor of Practice | Artificial Intelligence, Analytics and Engineering Management",
+    "summary": "Industry and academic professional with extensive experience across analytics, artificial intelligence, digital transformation, operations and management education. Develops practice-oriented graduate and postgraduate courses, case studies, capstone projects and executive learning programmes that connect theory with real organisational decisions.",
+    "photo": "",
+    "photoAlt": "Portrait of Manoj Kumar",
+    "contact": {
+      "location": "",
+      "email": "",
+      "phone": "",
+      "officeHours": ""
+    },
+    "cvUrl": ""
+  },
+  "social": [
+    {
+      "label": "GitHub",
+      "icon": "github",
+      "url": "https://github.com/imanojkumar",
+      "status": "published"
+    },
+    {
+      "label": "Google Scholar",
+      "icon": "google-scholar",
+      "url": "https://scholar.google.com/citations?user=3t83VSUAAAAJ",
+      "status": "published"
+    }
+  ],
+  "focus": {
+    "professional": {
+      "title": "Professional focus",
+      "icon": "target",
+      "items": [
+        "Artificial Intelligence for Business",
+        "Business Analytics",
+        "Engineering Management",
+        "Digital Transformation",
+        "Operations and Supply Chain",
+        "Mining and Natural Resources"
+      ]
+    },
+    "teaching": {
+      "title": "Teaching focus",
+      "icon": "book",
+      "items": [
+        "Graduate courses",
+        "Postgraduate courses",
+        "Executive education",
+        "Faculty development programmes",
+        "Industrial training",
+        "Case-based learning",
+        "Capstone supervision"
+      ]
+    },
+    "industry": {
+      "title": "Industry experience",
+      "icon": "briefcase",
+      "description": "Experience spanning industry practice and academic teaching across analytics, artificial intelligence, operations and digital transformation.",
+      "years": ""
+    },
+    "expertise": {
+      "title": "Key expertise",
+      "icon": "bulb",
+      "items": [
+        "Artificial Intelligence and Machine Learning",
+        "Business Analytics",
+        "Operations and Supply Chain Analytics",
+        "Digital Transformation",
+        "Data-Driven Decision Making"
+      ]
+    }
+  },
+  "education": [],
+  "books": [],
+  "software": {
+    "python": [],
+    "r": [],
+    "other": []
+  },
+  "consulting": [],
+  "conferences": [],
+  "talks": [],
+  "accolades": [],
+  "service": [],
+  "memberships": [],
+  "stats": [],
+  "researchInterests": [
+    "Responsible AI",
+    "Business Analytics",
+    "Agentic AI",
+    "Digital Transformation",
+    "AI in Operations",
+    "AI in Manufacturing",
+    "Sustainability",
+    "Engineering Management"
+  ],
+  "teachingInterests": [
+    "Business Analytics",
+    "Business Science",
+    "AI for Business",
+    "Agentic AI in Supply Chain",
+    "AI for Manufacturing Engineering",
+    "Data-Driven Decision Making",
+    "Operations Analytics",
+    "Digital Transformation for Managers"
+  ]
+}

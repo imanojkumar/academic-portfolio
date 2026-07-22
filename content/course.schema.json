@@ -1,0 +1,172 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Course record",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "summary",
+    "description",
+    "disciplines",
+    "programmeLevels",
+    "deliveryFormats",
+    "subjectArea",
+    "duration",
+    "credits",
+    "status",
+    "durationWeeks"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "title": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "disciplines": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "business-management",
+          "engineering-management",
+          "analytics",
+          "artificial-intelligence",
+          "digital-transformation",
+          "operations-supply-chain"
+        ]
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "programmeLevels": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "Graduate",
+          "Postgraduate"
+        ]
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "deliveryFormats": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "Classroom",
+          "Online",
+          "Hybrid",
+          "Executive Workshop"
+        ]
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "subjectArea": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "string"
+    },
+    "durationGroup": {
+      "type": "string"
+    },
+    "credits": {
+      "type": "number"
+    },
+    "featured": {
+      "type": "boolean"
+    },
+    "status": {
+      "enum": [
+        "published",
+        "draft"
+      ]
+    },
+    "cover": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "audience": {
+      "type": "string"
+    },
+    "prerequisites": {
+      "type": "string"
+    },
+    "outcomes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "modules": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "title",
+          "description"
+        ],
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "assessment": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "weight"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "weight": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "syllabus": {
+      "type": "string"
+    },
+    "updated": {
+      "type": "string"
+    },
+    "durationWeeks": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Machine-filterable duration. Display text lives in durationLabel."
+    },
+    "durationLabel": {
+      "type": "string",
+      "description": "Human-readable duration for display."
+    },
+    "license": {
+      "type": "string",
+      "enum": [
+        "CC BY 4.0"
+      ]
+    },
+    "rightsNotes": {
+      "type": "string"
+    }
+  }
+}

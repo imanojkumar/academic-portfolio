@@ -1,0 +1,79 @@
+{
+  "id": "operations-analytics",
+  "title": "Operations Analytics",
+  "summary": "Optimise operations through analytics and modelling.",
+  "description": "An applied course on process analysis, capacity, forecasting, inventory, scheduling and optimisation for operational performance.",
+  "disciplines": [
+    "engineering-management",
+    "analytics",
+    "operations-supply-chain"
+  ],
+  "programmeLevels": [
+    "Graduate",
+    "Postgraduate"
+  ],
+  "deliveryFormats": [
+    "Classroom",
+    "Online",
+    "Hybrid"
+  ],
+  "subjectArea": "Operations Analytics",
+  "duration": "12 weeks",
+  "durationGroup": "10-12 weeks",
+  "credits": 3,
+  "featured": false,
+  "status": "published",
+  "cover": "assets/img/courses/operations-analytics.svg",
+  "icon": "operations",
+  "audience": "Operations, supply-chain, engineering management and business analytics students and professionals.",
+  "prerequisites": "Basic quantitative methods and spreadsheet modelling.",
+  "outcomes": [
+    "Measure and diagnose operational performance.",
+    "Develop demand and workload forecasts.",
+    "Analyse capacity, queues, inventory and service levels.",
+    "Formulate scheduling and optimisation decisions.",
+    "Recommend operational improvements using analytical evidence."
+  ],
+  "modules": [
+    {
+      "title": "Operational performance and process data",
+      "description": "Flow, capacity, productivity and service measures."
+    },
+    {
+      "title": "Forecasting for operations",
+      "description": "Demand, workload and forecast evaluation."
+    },
+    {
+      "title": "Capacity, queues and service",
+      "description": "Congestion, resource decisions and service trade-offs."
+    },
+    {
+      "title": "Inventory and scheduling analytics",
+      "description": "Policies, priorities and resource allocation."
+    },
+    {
+      "title": "Optimisation and implementation",
+      "description": "Models, scenarios and operational adoption."
+    }
+  ],
+  "assessment": [
+    {
+      "name": "Operations modelling exercises",
+      "weight": "30%"
+    },
+    {
+      "name": "Process improvement case",
+      "weight": "30%"
+    },
+    {
+      "name": "Operations analytics project",
+      "weight": "40%"
+    }
+  ],
+  "syllabus": "files/courses/operations-analytics/syllabus.pdf",
+  "updated": "2026-07-21",
+  "durationWeeks": 12,
+  "durationLabel": "12 weeks",
+  "license": "CC BY 4.0",
+  "rightsNotes": "Third-party trademarks, images, datasets and quoted material remain subject to their respective rights."
+}

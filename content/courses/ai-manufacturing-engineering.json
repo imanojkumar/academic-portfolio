@@ -1,0 +1,78 @@
+{
+  "id": "ai-manufacturing-engineering",
+  "title": "AI for Manufacturing Engineering",
+  "summary": "AI techniques for smart and efficient manufacturing systems.",
+  "description": "An applied course linking artificial intelligence with manufacturing engineering decisions, process performance, quality, maintenance and production systems.",
+  "disciplines": [
+    "engineering-management",
+    "artificial-intelligence",
+    "operations-supply-chain"
+  ],
+  "programmeLevels": [
+    "Graduate",
+    "Postgraduate"
+  ],
+  "deliveryFormats": [
+    "Classroom",
+    "Hybrid"
+  ],
+  "subjectArea": "AI for Manufacturing Engineering",
+  "duration": "14 weeks",
+  "durationGroup": "13-14 weeks",
+  "credits": 4,
+  "featured": true,
+  "status": "published",
+  "cover": "assets/img/courses/ai-manufacturing-engineering.svg",
+  "icon": "factory",
+  "audience": "Manufacturing, industrial, mechanical and engineering management students and professionals.",
+  "prerequisites": "Basic manufacturing systems knowledge and introductory statistics.",
+  "outcomes": [
+    "Identify manufacturing decisions that can benefit from AI.",
+    "Prepare sensor and production data for analysis.",
+    "Evaluate quality, maintenance and process applications.",
+    "Connect AI models with manufacturing workflows and controls.",
+    "Design an implementation proposal for a smart manufacturing use case."
+  ],
+  "modules": [
+    {
+      "title": "AI opportunities in manufacturing",
+      "description": "Production, quality, maintenance, energy and flow."
+    },
+    {
+      "title": "Industrial data foundations",
+      "description": "Sensors, historians, traceability and data quality."
+    },
+    {
+      "title": "Predictive quality and maintenance",
+      "description": "Failure patterns, anomaly detection and decision thresholds."
+    },
+    {
+      "title": "Process optimisation and intelligent control",
+      "description": "Operational recommendations and closed-loop considerations."
+    },
+    {
+      "title": "Smart manufacturing implementation",
+      "description": "Architecture, workforce, risk and value realisation."
+    }
+  ],
+  "assessment": [
+    {
+      "name": "Manufacturing data exercise",
+      "weight": "25%"
+    },
+    {
+      "name": "Applied AI case analysis",
+      "weight": "30%"
+    },
+    {
+      "name": "Smart manufacturing project",
+      "weight": "45%"
+    }
+  ],
+  "syllabus": "files/courses/ai-manufacturing-engineering/syllabus.pdf",
+  "updated": "2026-07-21",
+  "durationWeeks": 14,
+  "durationLabel": "14 weeks",
+  "license": "CC BY 4.0",
+  "rightsNotes": "Third-party trademarks, images, datasets and quoted material remain subject to their respective rights."
+}

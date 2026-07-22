@@ -1,0 +1,14 @@
+{
+  "id": "resource-analytics-dataset-pack",
+  "type": "resource",
+  "title": "Business Analytics Dataset Pack",
+  "summary": "A structured set of classroom dataset descriptions and activity prompts for applied business analysis.",
+  "courseId": "business-analytics",
+  "duration": "Self-paced",
+  "format": "Dataset guide",
+  "status": "published",
+  "file": "files/materials/resource-analytics-dataset-pack.md",
+  "updated": "2026-07-21",
+  "license": "CC BY 4.0",
+  "rightsNotes": "Third-party trademarks, images, datasets and quoted material remain subject to their respective rights."
+}

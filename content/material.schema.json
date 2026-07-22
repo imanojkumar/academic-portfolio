@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Teaching material record",
+  "type": "object",
+  "required": [
+    "id",
+    "type",
+    "title",
+    "summary",
+    "courseId",
+    "format",
+    "status",
+    "license"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "type": {
+      "enum": [
+        "case-study",
+        "presentation",
+        "project",
+        "resource"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "courseId": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "string"
+    },
+    "format": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "published"
+      ],
+      "description": "Draft records are excluded from every published artefact."
+    },
+    "file": {
+      "type": "string"
+    },
+    "updated": {
+      "type": "string"
+    },
+    "license": {
+      "type": "string",
+      "description": "Content licence for original material.",
+      "enum": [
+        "CC BY 4.0"
+      ]
+    },
+    "rightsNotes": {
+      "type": "string",
+      "description": "Third-party rights notice (Addendum A, C7)."
+    },
+    "readingTime": {
+      "type": "integer",
+      "description": "Computed at build time. Do not set by hand."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "academic-course-portfolio",
+  "version": "2.1.0",
+  "private": true,
+  "description": "A static graduate and postgraduate course portfolio for Business Management and Engineering.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/build.mjs",
+    "start": "node scripts/serve.mjs",
+    "dev": "node scripts/build.mjs && node scripts/serve.mjs",
+    "dev:drafts": "node scripts/build.mjs --include-drafts --out=_preview && node scripts/serve.mjs --drafts",
+    "new:course": "node scripts/new-course.mjs",
+    "new:material": "node scripts/new-material.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}

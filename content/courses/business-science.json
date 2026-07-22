@@ -1,0 +1,77 @@
+{
+  "id": "business-science",
+  "title": "Business Science",
+  "summary": "Models and methods for solving complex business problems.",
+  "description": "An interdisciplinary course combining business understanding, analytical methods, experimentation and systems thinking to address complex organisational problems.",
+  "disciplines": [
+    "business-management",
+    "analytics"
+  ],
+  "programmeLevels": [
+    "Graduate",
+    "Postgraduate"
+  ],
+  "deliveryFormats": [
+    "Classroom",
+    "Hybrid"
+  ],
+  "subjectArea": "Business Science",
+  "duration": "12 weeks",
+  "durationGroup": "10-12 weeks",
+  "credits": 3,
+  "featured": true,
+  "status": "published",
+  "cover": "assets/img/courses/business-science.svg",
+  "icon": "network",
+  "audience": "Students and professionals seeking an integrated approach to business problems that cross functions, data and organisational systems.",
+  "prerequisites": "Introductory business statistics or equivalent experience is helpful.",
+  "outcomes": [
+    "Diagnose complex business problems using structured inquiry.",
+    "Combine quantitative and qualitative evidence.",
+    "Design experiments and evaluate managerial interventions.",
+    "Model interactions across business functions and systems.",
+    "Translate findings into feasible organisational action."
+  ],
+  "modules": [
+    {
+      "title": "Business science as an integrated discipline",
+      "description": "Problem contexts, evidence and model-based reasoning."
+    },
+    {
+      "title": "Causal questions and experimentation",
+      "description": "Experiments, natural experiments and practical limitations."
+    },
+    {
+      "title": "Systems and stakeholder analysis",
+      "description": "Interdependencies, feedback and organisational behaviour."
+    },
+    {
+      "title": "Decision models under uncertainty",
+      "description": "Scenarios, trade-offs and robust choices."
+    },
+    {
+      "title": "From evidence to implementation",
+      "description": "Recommendations, adoption and evaluation."
+    }
+  ],
+  "assessment": [
+    {
+      "name": "Problem diagnosis brief",
+      "weight": "25%"
+    },
+    {
+      "name": "Experiment design assignment",
+      "weight": "30%"
+    },
+    {
+      "name": "Integrated business science project",
+      "weight": "45%"
+    }
+  ],
+  "syllabus": "files/courses/business-science/syllabus.pdf",
+  "updated": "2026-07-21",
+  "durationWeeks": 12,
+  "durationLabel": "12 weeks",
+  "license": "CC BY 4.0",
+  "rightsNotes": "Third-party trademarks, images, datasets and quoted material remain subject to their respective rights."
+}

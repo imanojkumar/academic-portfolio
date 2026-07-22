@@ -1,0 +1,80 @@
+{
+  "id": "data-driven-decision-making",
+  "title": "Data-Driven Decision Making",
+  "summary": "From data to decisions with confidence and clarity.",
+  "description": "A managerial course on using data, evidence and structured judgement to improve decisions while recognising uncertainty, bias and organisational constraints.",
+  "disciplines": [
+    "business-management",
+    "engineering-management",
+    "analytics"
+  ],
+  "programmeLevels": [
+    "Graduate",
+    "Postgraduate"
+  ],
+  "deliveryFormats": [
+    "Classroom",
+    "Online",
+    "Hybrid",
+    "Executive Workshop"
+  ],
+  "subjectArea": "Data-Driven Decision Making",
+  "duration": "8 weeks",
+  "durationGroup": "8-10 weeks",
+  "credits": 2,
+  "featured": false,
+  "status": "published",
+  "cover": "assets/img/courses/data-driven-decision-making.svg",
+  "icon": "decision",
+  "audience": "Graduate and postgraduate students, managers and technical leaders responsible for evidence-based choices.",
+  "prerequisites": "No specialist technical prerequisite.",
+  "outcomes": [
+    "Distinguish information, evidence and managerial judgement.",
+    "Define decision criteria and relevant measures.",
+    "Interpret uncertainty and common analytical limitations.",
+    "Challenge assumptions and reduce decision bias.",
+    "Present an evidence-based recommendation to stakeholders."
+  ],
+  "modules": [
+    {
+      "title": "Decision quality and evidence",
+      "description": "Decision frames, criteria and information value."
+    },
+    {
+      "title": "Interpreting data and uncertainty",
+      "description": "Variation, confidence and practical significance."
+    },
+    {
+      "title": "Bias, incentives and organisational context",
+      "description": "Judgement traps and stakeholder dynamics."
+    },
+    {
+      "title": "Scenario and trade-off analysis",
+      "description": "Alternatives, sensitivity and robust choices."
+    },
+    {
+      "title": "Communicating decisions",
+      "description": "Recommendation structure, visual evidence and action."
+    }
+  ],
+  "assessment": [
+    {
+      "name": "Decision memo",
+      "weight": "30%"
+    },
+    {
+      "name": "Evidence critique",
+      "weight": "30%"
+    },
+    {
+      "name": "Final decision presentation",
+      "weight": "40%"
+    }
+  ],
+  "syllabus": "files/courses/data-driven-decision-making/syllabus.pdf",
+  "updated": "2026-07-21",
+  "durationWeeks": 8,
+  "durationLabel": "8 weeks",
+  "license": "CC BY 4.0",
+  "rightsNotes": "Third-party trademarks, images, datasets and quoted material remain subject to their respective rights."
+}

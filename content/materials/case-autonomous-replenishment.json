@@ -1,0 +1,14 @@
+{
+  "id": "case-autonomous-replenishment",
+  "type": "case-study",
+  "title": "Autonomous Replenishment Under Pressure",
+  "summary": "A supply-chain leader must decide how much authority to give an AI agent during a period of volatile demand.",
+  "courseId": "agentic-ai-supply-chain",
+  "duration": "90 minutes",
+  "format": "Operational decision case",
+  "status": "published",
+  "file": "files/materials/case-autonomous-replenishment.md",
+  "updated": "2026-07-21",
+  "license": "CC BY 4.0",
+  "rightsNotes": "Third-party trademarks, images, datasets and quoted material remain subject to their respective rights."
+}

@@ -1,0 +1,145 @@
+{
+  "hero": {
+    "name": "Manoj Kumar",
+    "headline": "Professor of Practice | Artificial Intelligence, Analytics and Engineering Management",
+    "summary": "Industry and academic professional with extensive experience across analytics, artificial intelligence, digital transformation, operations and management education. Develops practice-oriented graduate and postgraduate courses, case studies, capstone projects and executive learning programmes that connect theory with real organisational decisions.",
+    "photo": "",
+    "photoAlt": "Portrait of Manoj Kumar",
+    "contact": {
+      "location": "",
+      "email": "",
+      "phone": "",
+      "officeHours": ""
+    },
+    "cvUrl": ""
+  },
+
+  "social": [
+    { "label": "GitHub", "icon": "github", "url": "https://github.com/imanojkumar", "status": "published" },
+    { "label": "Google Scholar", "icon": "google-scholar", "url": "https://scholar.google.com/citations?user=3t83VSUAAAAJ", "status": "published" },
+    { "label": "ORCID", "icon": "orcid", "url": "", "status": "draft" },
+    { "label": "ResearchGate", "icon": "researchgate", "url": "", "status": "draft" },
+    { "label": "LinkedIn", "icon": "linkedin", "url": "", "status": "draft" },
+    { "label": "Stack Overflow", "icon": "stackoverflow", "url": "", "status": "draft" },
+    { "label": "Blog", "icon": "blog", "url": "", "status": "draft" }
+  ],
+
+  "focus": {
+    "professional": {
+      "title": "Professional focus",
+      "icon": "target",
+      "items": [
+        "Artificial Intelligence for Business",
+        "Business Analytics",
+        "Engineering Management",
+        "Digital Transformation",
+        "Operations and Supply Chain",
+        "Mining and Natural Resources"
+      ]
+    },
+    "teaching": {
+      "title": "Teaching focus",
+      "icon": "book",
+      "items": [
+        "Graduate courses",
+        "Postgraduate courses",
+        "Executive education",
+        "Faculty development programmes",
+        "Industrial training",
+        "Case-based learning",
+        "Capstone supervision"
+      ]
+    },
+    "industry": {
+      "title": "Industry experience",
+      "icon": "briefcase",
+      "description": "Experience spanning industry practice and academic teaching across analytics, artificial intelligence, operations and digital transformation.",
+      "years": ""
+    },
+    "expertise": {
+      "title": "Key expertise",
+      "icon": "bulb",
+      "items": [
+        "Artificial Intelligence and Machine Learning",
+        "Business Analytics",
+        "Operations and Supply Chain Analytics",
+        "Digital Transformation",
+        "Data-Driven Decision Making"
+      ]
+    }
+  },
+
+  "education": [
+    { "status": "draft", "qualification": "[Qualification, e.g. Ph.D.]", "discipline": "[Discipline]", "institution": "[Institution]", "country": "[Country]", "year": "[Year]", "distinction": "" },
+    { "status": "draft", "qualification": "[Qualification, e.g. Master's]", "discipline": "[Discipline]", "institution": "[Institution]", "country": "[Country]", "year": "[Year]", "distinction": "" },
+    { "status": "draft", "qualification": "[Qualification, e.g. Bachelor's]", "discipline": "[Discipline]", "institution": "[Institution]", "country": "[Country]", "year": "[Year]", "distinction": "" }
+  ],
+
+  "books": [
+    { "status": "draft", "title": "[Book title]", "subtitle": "[Subtitle]", "publisher": "[Publisher]", "year": "[Year]", "isbn": "[ISBN]", "cover": "", "description": "[One or two sentences describing the book.]", "viewUrl": "", "detailsUrl": "" },
+    { "status": "draft", "title": "[Book title]", "subtitle": "[Subtitle]", "publisher": "[Publisher]", "year": "[Year]", "isbn": "[ISBN]", "cover": "", "description": "[One or two sentences describing the book.]", "viewUrl": "", "detailsUrl": "" }
+  ],
+
+  "software": {
+    "python": [
+      { "status": "draft", "name": "[package-name]", "description": "[Short description of what the package does.]", "version": "[Version]", "pypiUrl": "", "githubUrl": "", "docsUrl": "" }
+    ],
+    "r": [
+      { "status": "draft", "name": "[package-name]", "description": "[Short description of what the package does.]", "cranUrl": "", "githubUrl": "", "docsUrl": "" }
+    ],
+    "other": [
+      { "status": "draft", "name": "[Project or tool name]", "description": "[Short description.]", "kind": "[web app / analytics tool / educational utility]", "url": "", "githubUrl": "" }
+    ]
+  },
+
+  "consulting": [
+    { "status": "draft", "title": "[Engagement title]", "organisation": "[Organisation]", "audience": "[Audience]", "location": "[Location]", "year": "[Year]", "duration": "[Duration]", "description": "[Short description of the engagement.]", "tags": ["[Topic]", "[Topic]"] }
+  ],
+
+  "conferences": [
+    { "status": "draft", "name": "[Conference name]", "role": "[Role, e.g. Presenter]", "location": "[Location]", "date": "[Date]", "topic": "[Paper or topic]", "url": "" }
+  ],
+
+  "talks": [
+    { "status": "draft", "title": "[Talk title]", "organisation": "[Institution or organisation]", "audience": "[Audience]", "year": "[Year]", "topic": "[Topic]", "url": "" }
+  ],
+
+  "accolades": [
+    { "status": "draft", "title": "[Recognition or role]", "detail": "[Context, e.g. keynote, panel member, reviewer recognition]", "year": "[Year]" }
+  ],
+
+  "service": [
+    { "status": "draft", "category": "[e.g. Journal reviewing]", "detail": "[Journal or organisation]" }
+  ],
+
+  "memberships": [
+    { "status": "draft", "organisation": "[Professional body]", "role": "[Member / Fellow / etc.]", "since": "[Year]" }
+  ],
+
+  "stats": [
+    { "status": "draft", "value": "[Number]", "label": "professional programmes delivered" },
+    { "status": "draft", "value": "[Number]", "label": "journal articles reviewed" }
+  ],
+
+  "researchInterests": [
+    "Responsible AI",
+    "Business Analytics",
+    "Agentic AI",
+    "Digital Transformation",
+    "AI in Operations",
+    "AI in Manufacturing",
+    "Sustainability",
+    "Engineering Management"
+  ],
+
+  "teachingInterests": [
+    "Business Analytics",
+    "Business Science",
+    "AI for Business",
+    "Agentic AI in Supply Chain",
+    "AI for Manufacturing Engineering",
+    "Data-Driven Decision Making",
+    "Operations Analytics",
+    "Digital Transformation for Managers"
+  ]
+}

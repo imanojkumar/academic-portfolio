@@ -1,0 +1,80 @@
+{
+  "id": "digital-transformation-managers",
+  "title": "Digital Transformation for Managers",
+  "summary": "Lead change and innovation in the digital era.",
+  "description": "A management course on digital strategy, operating-model transformation, technology choices, organisational change and value delivery.",
+  "disciplines": [
+    "business-management",
+    "engineering-management",
+    "digital-transformation"
+  ],
+  "programmeLevels": [
+    "Graduate",
+    "Postgraduate"
+  ],
+  "deliveryFormats": [
+    "Classroom",
+    "Online",
+    "Hybrid",
+    "Executive Workshop"
+  ],
+  "subjectArea": "Digital Transformation for Managers",
+  "duration": "10 weeks",
+  "durationGroup": "8-10 weeks",
+  "credits": 3,
+  "featured": false,
+  "status": "published",
+  "cover": "assets/img/courses/digital-transformation-managers.svg",
+  "icon": "transform",
+  "audience": "Managers, technical leaders, consultants and graduate students responsible for digital change.",
+  "prerequisites": "Professional or academic exposure to organisational processes is helpful.",
+  "outcomes": [
+    "Assess digital pressures and strategic opportunities.",
+    "Define a transformation ambition and portfolio of initiatives.",
+    "Evaluate operating-model and technology implications.",
+    "Plan governance, change and capability development.",
+    "Create a value-focused transformation roadmap."
+  ],
+  "modules": [
+    {
+      "title": "Digital strategy and competitive change",
+      "description": "Business models, ecosystems and strategic priorities."
+    },
+    {
+      "title": "Customer, process and data transformation",
+      "description": "Experience, operations and enterprise information."
+    },
+    {
+      "title": "Technology and operating-model choices",
+      "description": "Platforms, architecture, sourcing and ways of working."
+    },
+    {
+      "title": "Leading organisational change",
+      "description": "Leadership, capabilities, culture and adoption."
+    },
+    {
+      "title": "Transformation portfolio and value delivery",
+      "description": "Roadmaps, governance, measures and benefits."
+    }
+  ],
+  "assessment": [
+    {
+      "name": "Digital maturity assessment",
+      "weight": "25%"
+    },
+    {
+      "name": "Transformation case analysis",
+      "weight": "30%"
+    },
+    {
+      "name": "Transformation roadmap",
+      "weight": "45%"
+    }
+  ],
+  "syllabus": "files/courses/digital-transformation-managers/syllabus.pdf",
+  "updated": "2026-07-21",
+  "durationWeeks": 10,
+  "durationLabel": "10 weeks",
+  "license": "CC BY 4.0",
+  "rightsNotes": "Third-party trademarks, images, datasets and quoted material remain subject to their respective rights."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "project-smart-factory-decision-system",
+  "type": "project",
+  "title": "Smart Factory Decision System",
+  "summary": "Develop a practical proposal for an AI-supported manufacturing decision process using operational and sensor data.",
+  "courseId": "ai-manufacturing-engineering",
+  "duration": "6 weeks",
+  "format": "Capstone brief",
+  "status": "published",
+  "file": "files/materials/project-smart-factory-decision-system.md",
+  "updated": "2026-07-21",
+  "license": "CC BY 4.0",
+  "rightsNotes": "Third-party trademarks, images, datasets and quoted material remain subject to their respective rights."
+}

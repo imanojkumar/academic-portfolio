@@ -1,0 +1,14 @@
+{
+  "id": "project-supply-chain-control-tower",
+  "type": "project",
+  "title": "Supply-Chain Control Tower Project",
+  "summary": "Design an agent-enabled control tower that identifies disruptions, recommends actions and escalates exceptions.",
+  "courseId": "agentic-ai-supply-chain",
+  "duration": "6 weeks",
+  "format": "Capstone brief",
+  "status": "published",
+  "file": "files/materials/project-supply-chain-control-tower.md",
+  "updated": "2026-07-21",
+  "license": "CC BY 4.0",
+  "rightsNotes": "Third-party trademarks, images, datasets and quoted material remain subject to their respective rights."
+}

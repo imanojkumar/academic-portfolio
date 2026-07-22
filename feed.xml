@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel>
+<title>Manoj Kumar - Graduate and Postgraduate Course Portfolio</title>
+<link>https://imanojkumar.github.io/academic-portfolio</link>
+<description>Practice-oriented courses and teaching resources for Business Management and Engineering.</description>
+<item><title>Agentic AI in Supply Chain</title><link>https://imanojkumar.github.io/academic-portfolio/courses/agentic-ai-supply-chain/</link><guid isPermaLink="false">agentic-ai-supply-chain</guid><description>Autonomous agents for resilient and intelligent supply chains.</description></item>
+<item><title>AI for Business</title><link>https://imanojkumar.github.io/academic-portfolio/courses/ai-for-business/</link><guid isPermaLink="false">ai-for-business</guid><description>AI concepts and practical applications for business leaders.</description></item>
+<item><title>AI for Manufacturing Engineering</title><link>https://imanojkumar.github.io/academic-portfolio/courses/ai-manufacturing-engineering/</link><guid isPermaLink="false">ai-manufacturing-engineering</guid><description>AI techniques for smart and efficient manufacturing systems.</description></item>
+<item><title>Business Analytics</title><link>https://imanojkumar.github.io/academic-portfolio/courses/business-analytics/</link><guid isPermaLink="false">business-analytics</guid><description>Data-driven insights for strategic and operational decision-making.</description></item>
+<item><title>Business Science</title><link>https://imanojkumar.github.io/academic-portfolio/courses/business-science/</link><guid isPermaLink="false">business-science</guid><description>Models and methods for solving complex business problems.</description></item>
+<item><title>Data-Driven Decision Making</title><link>https://imanojkumar.github.io/academic-portfolio/courses/data-driven-decision-making/</link><guid isPermaLink="false">data-driven-decision-making</guid><description>From data to decisions with confidence and clarity.</description></item>
+<item><title>Digital Transformation for Managers</title><link>https://imanojkumar.github.io/academic-portfolio/courses/digital-transformation-managers/</link><guid isPermaLink="false">digital-transformation-managers</guid><description>Lead change and innovation in the digital era.</description></item>
+<item><title>Operations Analytics</title><link>https://imanojkumar.github.io/academic-portfolio/courses/operations-analytics/</link><guid isPermaLink="false">operations-analytics</guid><description>Optimise operations through analytics and modelling.</description></item>
+</channel></rss>

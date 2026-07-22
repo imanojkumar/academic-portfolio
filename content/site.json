@@ -1,0 +1,24 @@
+{
+  "baseUrl": "https://imanojkumar.github.io/academic-portfolio",
+  "title": "Manoj Kumar - Graduate and Postgraduate Course Portfolio",
+  "shortName": "Manoj Kumar",
+  "initials": "MK",
+  "role": "Graduate and Postgraduate Course Portfolio",
+  "description": "Practice-oriented courses and teaching resources for Business Management and Engineering.",
+  "heroEyebrow": "BUSINESS \u00b7 ENGINEERING \u00b7 ANALYTICS \u00b7 ARTIFICIAL INTELLIGENCE",
+  "heroTitle": "Graduate and Postgraduate Courses for Business and Engineering.",
+  "heroText": "Practice-oriented learning at the intersection of analytics, artificial intelligence, management and engineering - designed for future-ready professionals and organisations.",
+  "email": "",
+  "links": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/imanojkumar"
+    },
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=3t83VSUAAAAJ"
+    }
+  ],
+  "copyright": "Manoj Kumar",
+  "contactNote": "For teaching collaborations, guest sessions or course enquiries, please use the professional links below."
+}

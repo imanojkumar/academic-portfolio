@@ -1,0 +1,32 @@
+[
+  {
+    "id": "business-management",
+    "name": "Business Management",
+    "description": "Decision-making, strategy and organisational performance."
+  },
+  {
+    "id": "engineering-management",
+    "name": "Engineering Management",
+    "description": "Technology, systems and managerial leadership for engineering contexts."
+  },
+  {
+    "id": "analytics",
+    "name": "Analytics",
+    "description": "Data analysis, modelling and evidence-based decisions."
+  },
+  {
+    "id": "artificial-intelligence",
+    "name": "Artificial Intelligence",
+    "description": "Practical AI applications, implementation and responsible adoption."
+  },
+  {
+    "id": "digital-transformation",
+    "name": "Digital Transformation",
+    "description": "Operating-model change, digital strategy and implementation."
+  },
+  {
+    "id": "operations-supply-chain",
+    "name": "Operations and Supply Chain",
+    "description": "Operations improvement, supply networks and intelligent planning."
+  }
+]
