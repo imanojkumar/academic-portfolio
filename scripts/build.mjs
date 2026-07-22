@@ -180,7 +180,7 @@ const draftIds = new Set(materials.filter(m => m.status === 'draft').map(m => m.
 /* A published body must not carry a draft marker in its prose. This lets the  */
 /* scaffold keep a visible "draft in preparation" note without any risk of it  */
 /* surfacing on a public reading page.                                         */
-const DRAFT_MARKER = /draft\s*[—-]\s*in preparation/i;
+const DRAFT_MARKER = /draft\s*[--]\s*in preparation/i;
 for (const m of materials) {
   if (m.status !== 'draft' && m.file) {
     const body = readFileSync(join(ROOT, m.file), 'utf8');
@@ -286,9 +286,9 @@ if (existsSync(profileSrcPath)) {
   }
   if (!INCLUDE_DRAFTS) {
     const flat = [profileBuilt.social, profileBuilt.education, profileBuilt.books,
-      profileBuilt.software.python, profileBuilt.software.r, profileBuilt.software.other,
-      profileBuilt.consulting, profileBuilt.conferences, profileBuilt.talks,
-      profileBuilt.accolades, profileBuilt.service, profileBuilt.memberships, profileBuilt.stats].flat();
+    profileBuilt.software.python, profileBuilt.software.r, profileBuilt.software.other,
+    profileBuilt.consulting, profileBuilt.conferences, profileBuilt.talks,
+    profileBuilt.accolades, profileBuilt.service, profileBuilt.memberships, profileBuilt.stats].flat();
     if (flat.some(r => r && r.status === 'draft')) fail('profile draft leak: a draft record survived filtering');
   }
   writeOut('content/profile.built.json', JSON.stringify(profileBuilt, null, 2) + '\n');
@@ -389,26 +389,36 @@ ${marked.parse(md)}
 
 /* ------------------------------------------------ static section landings */
 const SECTIONS = [
-  { slug: 'courses', title: 'Course Catalogue', hash: '#/courses',
-    description: 'Graduate and postgraduate courses for Business Management and Engineering.' },
-  { slug: 'case-studies', type: 'case-study', title: 'Case Studies', hash: '#/case-studies',
-    description: 'Practice-oriented cases connected to the graduate and postgraduate course portfolio.' },
-  { slug: 'presentations', type: 'presentation', title: 'Presentations', hash: '#/presentations',
-    description: 'Presentation resources for course delivery, workshops and structured classroom discussion.' },
-  { slug: 'projects', type: 'project', title: 'Projects', hash: '#/projects',
-    description: 'Applied project briefs connecting course ideas with business and engineering contexts.' },
-  { slug: 'resources', type: 'resource', title: 'Teaching Resources', hash: '#/resources',
-    description: 'Templates, dataset guides and practical resources supporting course delivery.' }
+  {
+    slug: 'courses', title: 'Course Catalogue', hash: '#/courses',
+    description: 'Graduate and postgraduate courses for Business Management and Engineering.'
+  },
+  {
+    slug: 'case-studies', type: 'case-study', title: 'Case Studies', hash: '#/case-studies',
+    description: 'Practice-oriented cases connected to the graduate and postgraduate course portfolio.'
+  },
+  {
+    slug: 'presentations', type: 'presentation', title: 'Presentations', hash: '#/presentations',
+    description: 'Presentation resources for course delivery, workshops and structured classroom discussion.'
+  },
+  {
+    slug: 'projects', type: 'project', title: 'Projects', hash: '#/projects',
+    description: 'Applied project briefs connecting course ideas with business and engineering contexts.'
+  },
+  {
+    slug: 'resources', type: 'resource', title: 'Teaching Resources', hash: '#/resources',
+    description: 'Templates, dataset guides and practical resources supporting course delivery.'
+  }
 ];
 
 for (const s of SECTIONS) {
   const items = s.slug === 'courses'
     ? outCourses.map(c => ({ href: `../courses/${c.id}/`, title: c.title, summary: c.summary }))
     : outMaterials.filter(m => m.type === s.type)
-        .map(m => ({ href: `../materials/${m.id}/`, title: m.title, summary: m.summary }));
+      .map(m => ({ href: `../materials/${m.id}/`, title: m.title, summary: m.summary }));
   const list = items.length
     ? `<ul class="static-list">${items.map(i =>
-        `<li><a href="${esc(i.href)}">${esc(i.title)}</a><span>${esc(i.summary)}</span></li>`).join('')}</ul>`
+      `<li><a href="${esc(i.href)}">${esc(i.title)}</a><span>${esc(i.summary)}</span></li>`).join('')}</ul>`
     : `<p class="static-empty">No items are currently published in this section.</p>`;
   writeOut(`${s.slug}/index.html`, page({
     depth: 1, title: s.title, description: s.description,
@@ -428,7 +438,7 @@ const renderProfileStatic = p => {
     ? `<section class="prose-block"><h3>${esc(f.title)}</h3><ul>${f.items.map(i => `<li>${esc(i)}</li>`).join('')}</ul></section>` : '';
   const eduBlock = (p.education && p.education.length)
     ? `<section class="prose-block"><h2>Education</h2><ul>${p.education.map(e =>
-        `<li>${esc([e.qualification, e.discipline].filter(Boolean).join(', '))}${e.institution ? ` — ${esc(e.institution)}` : ''}${e.year ? ` (${esc(e.year)})` : ''}</li>`).join('')}</ul></section>` : '';
+      `<li>${esc([e.qualification, e.discipline].filter(Boolean).join(', '))}${e.institution ? ` - ${esc(e.institution)}` : ''}${e.year ? ` (${esc(e.year)})` : ''}</li>`).join('')}</ul></section>` : '';
   return `<article class="container prose about-static">
 <h1>${esc(h.name || 'About')}</h1>
 ${h.headline ? `<p class="about-headline">${esc(h.headline)}</p>` : ''}

@@ -66,7 +66,7 @@ http.createServer((req, res) => {
 }).listen(port, () => {
   console.log(`\nPortfolio preview: http://localhost:${port}`);
   if (DRAFTS) {
-    console.log('\n  *** DRAFT PREVIEW — includes unpublished content. Do not share this view. ***');
+    console.log('\n  *** DRAFT PREVIEW - includes unpublished content. Do not share this view. ***');
   }
   console.log('\nPress Ctrl+C to stop.\n');
 });
