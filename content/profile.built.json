@@ -7,10 +7,10 @@
     "photo": "",
     "photoAlt": "Portrait of Manoj Kumar",
     "contact": {
-      "location": "",
-      "email": "",
-      "phone": "",
-      "officeHours": ""
+      "location": "India",
+      "email": "iManoj.Kumar@hotmail.com",
+      "phone": "+91-9313449849",
+      "officeHours": "10AM-5PM IST, Monday to Friday"
     },
     "cvUrl": ""
   },
@@ -25,6 +25,30 @@
       "label": "Google Scholar",
       "icon": "google-scholar",
       "url": "https://scholar.google.com/citations?user=3t83VSUAAAAJ",
+      "status": "published"
+    },
+    {
+      "label": "ORCID",
+      "icon": "orcid",
+      "url": "https://orcid.org/my-orcid?orcid=0000-0001-8988-038X",
+      "status": "published"
+    },
+    {
+      "label": "ResearchGate",
+      "icon": "researchgate",
+      "url": "https://www.researchgate.net/profile/Manoj_Kumar458/stats",
+      "status": "published"
+    },
+    {
+      "label": "LinkedIn",
+      "icon": "linkedin",
+      "url": "https://www.linkedin.com/in/imanojkumar/",
+      "status": "published"
+    },
+    {
+      "label": "Stack Overflow",
+      "icon": "stackoverflow",
+      "url": "https://stackoverflow.com/users/4026992/manoj-kumar?tab=badges",
       "status": "published"
     }
   ],
@@ -72,7 +96,44 @@
       ]
     }
   },
-  "education": [],
+  "education": [
+    {
+      "status": "published",
+      "qualification": "DBA",
+      "discipline": "Business Administration",
+      "institution": "EIASM",
+      "country": "Czech Republic",
+      "year": "2024",
+      "distinction": ""
+    },
+    {
+      "status": "published",
+      "qualification": "PG Diploma",
+      "discipline": "AI & ML",
+      "institution": "IIIT Bangalore",
+      "country": "India",
+      "year": "2021",
+      "distinction": ""
+    },
+    {
+      "status": "published",
+      "qualification": "MBA",
+      "discipline": "Business Administration",
+      "institution": "[Institution]",
+      "country": "India",
+      "year": "2009",
+      "distinction": ""
+    },
+    {
+      "status": "published",
+      "qualification": "B.Tech.",
+      "discipline": "Mining & Machinery Engineering",
+      "institution": "IIT-ISM Dhanbad",
+      "country": "India",
+      "year": "2001",
+      "distinction": ""
+    }
+  ],
   "books": [],
   "software": {
     "python": [],
